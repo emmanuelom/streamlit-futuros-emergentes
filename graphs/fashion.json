@@ -1,0 +1,292 @@
+{
+  "nodes": [
+    {
+      "name": "Fashion",
+      "category": 0,
+      "symbolSize": 50
+    },
+    {
+      "name": "Mycelium Leather",
+      "category": 1,
+      "symbolSize": 30
+    },
+    {
+      "name": "Mushroom-Based Athletic Bags",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Mushroom Leather Seating Solutions",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Mushroom-Constructed Room Designs",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Ready-to-Wear Biomaterial Fashion",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Luxury Mycelium Bags",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Mushroom Leather Fruit Bowls",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Infrared Fashion",
+      "category": 2,
+      "symbolSize": 30
+    },
+    {
+      "name": "Durable Heated Winter Gloves",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Versatile Thermo-Regulating  Onesies",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Advanced Infrared Socks",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Cryogenics-Themed Fall Fashion",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Energy-Reflecting Workout Tees",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Recovery Shoe",
+      "category": 3,
+      "symbolSize": 30
+    },
+    {
+      "name": "Post-Climb Shoes",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Chunky Recovery Mules",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Sculpted Foam Recovery Shoes",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Recovery Slip-On Shoes",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Oceanic Linen",
+      "category": 4,
+      "symbolSize": 30
+    },
+    {
+      "name": "Ocean Waste-Made Textiles",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Upcycled PET Yarn Fabrics",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Upcycled Polyester Yarns",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Ocean-Friendly Upholstery Textiles",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Functional Mule",
+      "category": 5,
+      "symbolSize": 30
+    },
+    {
+      "name": "Minimalist Modular Mules",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "name": "Molded Mule Footwear",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "name": "Sleek Monochromatic Mules",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "name": "Quilted Leather Mules",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "name": "Tonal Hybrid Sneaker Mules",
+      "category": 5,
+      "symbolSize": 20
+    }
+  ],
+  "links": [
+    {
+      "source": "Mycelium Leather",
+      "target": "Mushroom-Based Athletic Bags"
+    },
+    {
+      "source": "Mycelium Leather",
+      "target": "Mushroom Leather Seating Solutions"
+    },
+    {
+      "source": "Mycelium Leather",
+      "target": "Mushroom-Constructed Room Designs"
+    },
+    {
+      "source": "Mycelium Leather",
+      "target": "Ready-to-Wear Biomaterial Fashion"
+    },
+    {
+      "source": "Mycelium Leather",
+      "target": "Luxury Mycelium Bags"
+    },
+    {
+      "source": "Mycelium Leather",
+      "target": "Mushroom Leather Fruit Bowls"
+    },
+    {
+      "source": "Infrared Fashion",
+      "target": "Durable Heated Winter Gloves"
+    },
+    {
+      "source": "Infrared Fashion",
+      "target": "Versatile Thermo-Regulating  Onesies"
+    },
+    {
+      "source": "Infrared Fashion",
+      "target": "Advanced Infrared Socks"
+    },
+    {
+      "source": "Infrared Fashion",
+      "target": "Cryogenics-Themed Fall Fashion"
+    },
+    {
+      "source": "Infrared Fashion",
+      "target": "Energy-Reflecting Workout Tees"
+    },
+    {
+      "source": "Recovery Shoe",
+      "target": "Post-Climb Shoes"
+    },
+    {
+      "source": "Recovery Shoe",
+      "target": "Chunky Recovery Mules"
+    },
+    {
+      "source": "Recovery Shoe",
+      "target": "Sculpted Foam Recovery Shoes"
+    },
+    {
+      "source": "Recovery Shoe",
+      "target": "Recovery Slip-On Shoes"
+    },
+    {
+      "source": "Oceanic Linen",
+      "target": "Ocean Waste-Made Textiles"
+    },
+    {
+      "source": "Oceanic Linen",
+      "target": "Upcycled PET Yarn Fabrics"
+    },
+    {
+      "source": "Oceanic Linen",
+      "target": "Upcycled Polyester Yarns"
+    },
+    {
+      "source": "Oceanic Linen",
+      "target": "Ocean-Friendly Upholstery Textiles"
+    },
+    {
+      "source": "Functional Mule",
+      "target": "Minimalist Modular Mules"
+    },
+    {
+      "source": "Functional Mule",
+      "target": "Molded Mule Footwear"
+    },
+    {
+      "source": "Functional Mule",
+      "target": "Sleek Monochromatic Mules"
+    },
+    {
+      "source": "Functional Mule",
+      "target": "Quilted Leather Mules"
+    },
+    {
+      "source": "Functional Mule",
+      "target": "Tonal Hybrid Sneaker Mules"
+    },
+    {
+      "source": "Fashion",
+      "target": "Mycelium Leather"
+    },
+    {
+      "source": "Fashion",
+      "target": "Infrared Fashion"
+    },
+    {
+      "source": "Fashion",
+      "target": "Recovery Shoe"
+    },
+    {
+      "source": "Fashion",
+      "target": "Oceanic Linen"
+    },
+    {
+      "source": "Fashion",
+      "target": "Functional Mule"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Fashion"
+    },
+    {
+      "name": "Mycelium Leather"
+    },
+    {
+      "name": "Infrared Fashion"
+    },
+    {
+      "name": "Recovery Shoe"
+    },
+    {
+      "name": "Oceanic Linen"
+    },
+    {
+      "name": "Functional Mule"
+    }
+  ]
+}

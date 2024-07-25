@@ -1,0 +1,46 @@
+{
+    "nodes": [
+      {"name": "Agroindustry", "category": 0, "symbolSize": 50},
+      {"name": "AI-Powered Farming", "category": 1, "symbolSize": 30, "info": "data/ppulse_AI-Powered Farming.csv"},
+      {"name": "Zero-Carbon Vegetable", "category": 2, "symbolSize": 30, "info": "data/ppulse_Zero-Carbon Vegetable.csv"},
+      {"name": "Ethical Food Production Systems", "category": 3, "symbolSize": 30, "info": "data/ppulse_Ethical Food Production Systems.csv"},
+      {"name": "Self-Driving Farm Tractors", "category": 1, "symbolSize": 20, "info": "data/ppulse_Self-Driving Farm Tractors.csv"},
+      {"name": "Mobile Chicken Coops", "category": 1, "symbolSize": 20, "info": "data/ppulse_Mobile Chicken Coops.csv"},
+      {"name": "Vertical Farming", "category": 1, "symbolSize": 20, "info": "data/ppulse_Vertical Farming.csv"},
+      {"name": "Crop-Monitoring Agriculture Robots", "category": 1, "symbolSize": 20, "info": "data/ppulse_Crop-Monitoring Agriculture Robots.csv"},
+      {"name": "Automated Farming Robots", "category": 1, "symbolSize": 20, "info": "data/ppulse_Automated Farming Robots.csv"},
+      {"name": "AI Agriculture-Forecasting Tools", "category": 1, "symbolSize": 20, "info": "data/ppulse_AI Agriculture-Forecasting Tools.csv"},
+      {"name": "Carbon Negative Farms", "category": 2, "symbolSize": 20, "info": "data/ppulse_Carbon Negative Farms.csv"},
+      {"name": "Carbon-Neutral Fruits", "category": 2, "symbolSize": 20, "info": "data/ppulse_Carbon-Neutral Fruits.csv"},
+      {"name": "Certified Carbon-Neutral Pineapples", "category": 2, "symbolSize": 20, "info": "data/ppulse_Certified Carbon-Neutral Pineapples.csv"},
+      {"name": "True Carbon-Neutral Carrots", "category": 2, "symbolSize": 20, "info": "data/ppulse_True Carbon-Neutral Carrots.csv"},
+      {"name": "Regenerative Coffee", "category": 3, "symbolSize": 20, "info":"data/ppulse_Regenerative Coffee.csv"},
+      {"name": "Alternative cocoa", "category": 3, "symbolSize": 20, "info": "data/ppulse_Alternative cocoa.csv"},
+      {"name": "Regeneratively Farmed Organic Blueberries", "category": 3, "symbolSize": 20, "info": "data/ppulse_Regeneratively Farmed Organic Blueberries.csv"}
+    ],
+    "links": [
+      {"source": "Agroindustry", "target": "AI-Powered Farming"},
+      {"source": "AI-Powered Farming", "target": "Self-Driving Farm Tractors"},
+      {"source": "AI-Powered Farming", "target": "Mobile Chicken Coops"},
+      {"source": "AI-Powered Farming", "target": "Vertical Farming"},
+      {"source": "AI-Powered Farming", "target": "Crop-Monitoring Agriculture Robots"},
+      {"source": "AI-Powered Farming", "target": "Automated Farming Robots"},
+      {"source": "AI-Powered Farming", "target": "AI Agriculture-Forecasting Tools"},
+      {"source": "Agroindustry", "target": "Zero-Carbon Vegetable"},
+      {"source": "Zero-Carbon Vegetable", "target": "Carbon Negative Farms"},
+      {"source": "Zero-Carbon Vegetable", "target": "Carbon-Neutral Fruits"},
+      {"source": "Zero-Carbon Vegetable", "target": "Certified Carbon-Neutral Pineapples"},
+      {"source": "Zero-Carbon Vegetable", "target": "True Carbon-Neutral Carrots"},
+      {"source": "Agroindustry", "target": "Ethical Food Production Systems"},
+      {"source": "Ethical Food Production Systems", "target": "Alternative cocoa"},
+      {"source": "Ethical Food Production Systems", "target": "Regenerative Coffee"},
+      {"source": "Ethical Food Production Systems", "target": "Regeneratively Farmed Organic Blueberries"}
+      
+    ],
+    "categories": [
+      {"name": "Agroindustry"},
+      {"name": "AI-Powered Farming"},
+      {"name": "Zero-Carbon Vegetable"},
+      {"name": "Ethical Food Production Systems"}
+    ]
+  }

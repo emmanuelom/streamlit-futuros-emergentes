@@ -1,0 +1,199 @@
+{
+  "nodes": [
+    {
+      "name": "Automotive Manufacture",
+      "category": 0,
+      "symbolSize": 50
+    },
+    {
+      "name": "Retro styled electric convertibles",
+      "category": 1,
+      "symbolSize": 30
+    },
+    {
+      "name": "Sleek futuristic electric vehicle",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Riproaring convertible supercars",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "All electric camper van designs",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Special editions seaside vehicles",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "High end gamping trailers",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Performance electric concept cars",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Retro car design houses",
+      "category": 2,
+      "symbolSize": 30
+    },
+    {
+      "name": "Retro Automotive Design",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Limited Production Vehicles",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Reimagined Classic Design",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Charged electric hatchbacks",
+      "category": 3,
+      "symbolSize": 30
+    },
+    {
+      "name": "Retro Car Electric Re-Launches",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Dual Electric Motors",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Electric Sports Cars",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Modern electrified retro automobiles",
+      "category": 4,
+      "symbolSize": 30
+    },
+    {
+      "name": "Retrofuturistic Automobile Design",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Electric Drivetrain Integration",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Artistic Concept Car Renderings",
+      "category": 4,
+      "symbolSize": 20
+    }
+  ],
+  "links": [
+    {
+      "source": "Retro styled electric convertibles",
+      "target": "Sleek futuristic electric vehicle"
+    },
+    {
+      "source": "Retro styled electric convertibles",
+      "target": "Riproaring convertible supercars"
+    },
+    {
+      "source": "Retro styled electric convertibles",
+      "target": "All electric camper van designs"
+    },
+    {
+      "source": "Retro styled electric convertibles",
+      "target": "Special editions seaside vehicles"
+    },
+    {
+      "source": "Retro styled electric convertibles",
+      "target": "High end gamping trailers"
+    },
+    {
+      "source": "Retro styled electric convertibles",
+      "target": "Performance electric concept cars"
+    },
+    {
+      "source": "Retro car design houses",
+      "target": "Retro Automotive Design"
+    },
+    {
+      "source": "Retro car design houses",
+      "target": "Limited Production Vehicles"
+    },
+    {
+      "source": "Retro car design houses",
+      "target": "Reimagined Classic Design"
+    },
+    {
+      "source": "Charged electric hatchbacks",
+      "target": "Retro Car Electric Re-Launches"
+    },
+    {
+      "source": "Charged electric hatchbacks",
+      "target": "Dual Electric Motors"
+    },
+    {
+      "source": "Charged electric hatchbacks",
+      "target": "Electric Sports Cars"
+    },
+    {
+      "source": "Modern electrified retro automobiles",
+      "target": "Retrofuturistic Automobile Design"
+    },
+    {
+      "source": "Modern electrified retro automobiles",
+      "target": "Electric Drivetrain Integration"
+    },
+    {
+      "source": "Modern electrified retro automobiles",
+      "target": "Artistic Concept Car Renderings"
+    },
+    {
+      "source": "Automotive Manufacture",
+      "target": "Retro styled electric convertibles"
+    },
+    {
+      "source": "Automotive Manufacture",
+      "target": "Retro car design houses"
+    },
+    {
+      "source": "Automotive Manufacture",
+      "target": "Charged electric hatchbacks"
+    },
+    {
+      "source": "Automotive Manufacture",
+      "target": "Modern electrified retro automobiles"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Automotive Manufacture"
+    },
+    {
+      "name": "Retro styled electric convertibles"
+    },
+    {
+      "name": "Retro car design houses"
+    },
+    {
+      "name": "Charged electric hatchbacks"
+    },
+    {
+      "name": "Modern electrified retro automobiles"
+    }
+  ]
+}

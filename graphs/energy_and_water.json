@@ -1,0 +1,275 @@
+{
+  "nodes": [
+    {
+      "name": "Energy and Water",
+      "category": 0,
+      "symbolSize": 50
+    },
+    {
+      "name": "Hydrogen-Powered Motercycles",
+      "category": 1,
+      "symbolSize": 30
+    },
+    {
+      "name": "Hydrogen-powered",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Sustainable Engines",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Hyse Research Association",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Liquid-cooled roadster motorcycles",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Swappable battery electric motorcycles",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "High-performance electric motorcycles",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Naked electric motorbikes",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Shapeshifting electric motorbikes",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Modular tech-rich motorcycles",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Hydrogen fuel cell Bike",
+      "category": 2,
+      "symbolSize": 30
+    },
+    {
+      "name": "Hydrogen Fuel Cell Adoption",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Micromobility Sustainability",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Open-Source Engineering",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Hydrogen-powered ebikes",
+      "category": 3,
+      "symbolSize": 30
+    },
+    {
+      "name": "Compact AI-powered e-bikes",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Speed european e-bikes",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "High-power electric bike models",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Futuristic mini bikes",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Low-step cargo ebikes",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Electric carbon bikes",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Research-centric hydrogen motorcycles",
+      "category": 4,
+      "symbolSize": 30
+    },
+    {
+      "name": "Performance-pushing e-motorbikes",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Self-balancing stealthy motorbikes",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Elegant futuristic e-motorbikes",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Bump-absorbing electric motorbikes",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Retro-style electric motorbikes",
+      "category": 4,
+      "symbolSize": 20
+    }
+  ],
+  "links": [
+    {
+      "source": "Hydrogen-Powered Motercycles",
+      "target": "Hydrogen-powered"
+    },
+    {
+      "source": "Hydrogen-Powered Motercycles",
+      "target": "Sustainable Engines"
+    },
+    {
+      "source": "Hydrogen-Powered Motercycles",
+      "target": "Hyse Research Association"
+    },
+    {
+      "source": "Hydrogen-Powered Motercycles",
+      "target": "Liquid-cooled roadster motorcycles"
+    },
+    {
+      "source": "Hydrogen-Powered Motercycles",
+      "target": "Swappable battery electric motorcycles"
+    },
+    {
+      "source": "Hydrogen-Powered Motercycles",
+      "target": "High-performance electric motorcycles"
+    },
+    {
+      "source": "Hydrogen-Powered Motercycles",
+      "target": "Naked electric motorbikes"
+    },
+    {
+      "source": "Hydrogen-Powered Motercycles",
+      "target": "Shapeshifting electric motorbikes"
+    },
+    {
+      "source": "Hydrogen-Powered Motercycles",
+      "target": "Modular tech-rich motorcycles"
+    },
+    {
+      "source": "Hydrogen fuel cell Bike",
+      "target": "Hydrogen Fuel Cell Adoption"
+    },
+    {
+      "source": "Hydrogen fuel cell Bike",
+      "target": "Micromobility Sustainability"
+    },
+    {
+      "source": "Hydrogen fuel cell Bike",
+      "target": "Open-Source Engineering"
+    },
+    {
+      "source": "Hydrogen-powered ebikes",
+      "target": "Compact AI-powered e-bikes"
+    },
+    {
+      "source": "Hydrogen-powered ebikes",
+      "target": "Speed european e-bikes"
+    },
+    {
+      "source": "Hydrogen-powered ebikes",
+      "target": "High-power electric bike models"
+    },
+    {
+      "source": "Hydrogen-powered ebikes",
+      "target": "Futuristic mini bikes"
+    },
+    {
+      "source": "Hydrogen-powered ebikes",
+      "target": "Low-step cargo ebikes"
+    },
+    {
+      "source": "Hydrogen-powered ebikes",
+      "target": "Electric carbon bikes"
+    },
+    {
+      "source": "Research-centric hydrogen motorcycles",
+      "target": "Performance-pushing e-motorbikes"
+    },
+    {
+      "source": "Research-centric hydrogen motorcycles",
+      "target": "Self-balancing stealthy motorbikes"
+    },
+    {
+      "source": "Research-centric hydrogen motorcycles",
+      "target": "Elegant futuristic e-motorbikes"
+    },
+    {
+      "source": "Research-centric hydrogen motorcycles",
+      "target": "Bump-absorbing electric motorbikes"
+    },
+    {
+      "source": "Research-centric hydrogen motorcycles",
+      "target": "Retro-style electric motorbikes"
+    },
+    {
+      "source": "Research-centric hydrogen motorcycles",
+      "target": "Naked electric motorbikes"
+    },
+    {
+      "source": "Energy and Water",
+      "target": "Hydrogen-Powered Motercycles"
+    },
+    {
+      "source": "Energy and Water",
+      "target": "Hydrogen fuel cell Bike"
+    },
+    {
+      "source": "Energy and Water",
+      "target": "Hydrogen-powered ebikes"
+    },
+    {
+      "source": "Energy and Water",
+      "target": "Research-centric hydrogen motorcycles"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Energy and Water"
+    },
+    {
+      "name": "Hydrogen-Powered Motercycles"
+    },
+    {
+      "name": "Hydrogen fuel cell Bike"
+    },
+    {
+      "name": "Hydrogen-powered ebikes"
+    },
+    {
+      "name": "Research-centric hydrogen motorcycles"
+    }
+  ]
+}

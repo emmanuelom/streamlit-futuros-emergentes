@@ -1,0 +1,313 @@
+{
+  "nodes": [
+    {
+      "name": "Health",
+      "category": 0,
+      "symbolSize": 50
+    },
+    {
+      "name": "Colostrum Supplement",
+      "category": 1,
+      "symbolSize": 30
+    },
+    {
+      "name": "Watermelon-Flavored Colostrum Superfoods?",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Viral Colostrum-based Supplements?",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Colostrum Joint Support Supplements?",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Immunity-Supporting Colostrum Supplements?",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Focused Care",
+      "category": 2,
+      "symbolSize": 30
+    },
+    {
+      "name": "AI Healthcare Programs?",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Virtual At-Home Care Solutions?",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "AI-Backed Health Services?",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Cancer Treatment Estimation Services?",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Organic Treatment",
+      "category": 3,
+      "symbolSize": 30
+    },
+    {
+      "name": "Holistic Anti-Congestion Products?",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Organic Whole-Body Skincare?",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Clean Ingredient Cold Medications?",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Popsicle-Style Immune Supplements?",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Free-From Kids Cold Medications?",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Gastrointestinal Tracking",
+      "category": 4,
+      "symbolSize": 30
+    },
+    {
+      "name": "Heartburn Tracker Apps?",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "AI-Powered Gut Health Apps?",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Digestive Health Apps?",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Virtual Gastrointestinal Care Clinics?",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Slim CBD",
+      "category": 5,
+      "symbolSize": 30
+    },
+    {
+      "name": "Flavor-Free Cannabis Drink Powders?",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "name": "Slim CBD Sparkling Waters?",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "name": "Lifestyle-Focused CBD Soft Gels?",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "name": "Athlete-Targeted CBD Gummies?",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "name": "Anonymous Support",
+      "category": 6,
+      "symbolSize": 30
+    },
+    {
+      "name": "Gen Z-Centered Health Apps?",
+      "category": 6,
+      "symbolSize": 20
+    },
+    {
+      "name": "Online Mental Health Communities?",
+      "category": 6,
+      "symbolSize": 20
+    },
+    {
+      "name": "Peer-Connected Support Platforms?",
+      "category": 6,
+      "symbolSize": 20
+    },
+    {
+      "name": "Connection-Focused Health Apps?",
+      "category": 6,
+      "symbolSize": 20
+    }
+  ],
+  "links": [
+    {
+      "source": "Colostrum Supplement",
+      "target": "Watermelon-Flavored Colostrum Superfoods?"
+    },
+    {
+      "source": "Colostrum Supplement",
+      "target": "Viral Colostrum-based Supplements?"
+    },
+    {
+      "source": "Colostrum Supplement",
+      "target": "Colostrum Joint Support Supplements?"
+    },
+    {
+      "source": "Colostrum Supplement",
+      "target": "Immunity-Supporting Colostrum Supplements?"
+    },
+    {
+      "source": "Focused Care",
+      "target": "AI Healthcare Programs?"
+    },
+    {
+      "source": "Focused Care",
+      "target": "Virtual At-Home Care Solutions?"
+    },
+    {
+      "source": "Focused Care",
+      "target": "AI-Backed Health Services?"
+    },
+    {
+      "source": "Focused Care",
+      "target": "Cancer Treatment Estimation Services?"
+    },
+    {
+      "source": "Organic Treatment",
+      "target": "Holistic Anti-Congestion Products?"
+    },
+    {
+      "source": "Organic Treatment",
+      "target": "Organic Whole-Body Skincare?"
+    },
+    {
+      "source": "Organic Treatment",
+      "target": "Clean Ingredient Cold Medications?"
+    },
+    {
+      "source": "Organic Treatment",
+      "target": "Popsicle-Style Immune Supplements?"
+    },
+    {
+      "source": "Organic Treatment",
+      "target": "Free-From Kids Cold Medications?"
+    },
+    {
+      "source": "Gastrointestinal Tracking",
+      "target": "Heartburn Tracker Apps?"
+    },
+    {
+      "source": "Gastrointestinal Tracking",
+      "target": "AI-Powered Gut Health Apps?"
+    },
+    {
+      "source": "Gastrointestinal Tracking",
+      "target": "Digestive Health Apps?"
+    },
+    {
+      "source": "Gastrointestinal Tracking",
+      "target": "Virtual Gastrointestinal Care Clinics?"
+    },
+    {
+      "source": "Slim CBD",
+      "target": "Flavor-Free Cannabis Drink Powders?"
+    },
+    {
+      "source": "Slim CBD",
+      "target": "Slim CBD Sparkling Waters?"
+    },
+    {
+      "source": "Slim CBD",
+      "target": "Lifestyle-Focused CBD Soft Gels?"
+    },
+    {
+      "source": "Slim CBD",
+      "target": "Athlete-Targeted CBD Gummies?"
+    },
+    {
+      "source": "Anonymous Support",
+      "target": "Gen Z-Centered Health Apps?"
+    },
+    {
+      "source": "Anonymous Support",
+      "target": "Online Mental Health Communities?"
+    },
+    {
+      "source": "Anonymous Support",
+      "target": "Peer-Connected Support Platforms?"
+    },
+    {
+      "source": "Anonymous Support",
+      "target": "Connection-Focused Health Apps?"
+    },
+    {
+      "source": "Health",
+      "target": "Colostrum Supplement"
+    },
+    {
+      "source": "Health",
+      "target": "Focused Care"
+    },
+    {
+      "source": "Health",
+      "target": "Organic Treatment"
+    },
+    {
+      "source": "Health",
+      "target": "Gastrointestinal Tracking"
+    },
+    {
+      "source": "Health",
+      "target": "Slim CBD"
+    },
+    {
+      "source": "Health",
+      "target": "Anonymous Support"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Health"
+    },
+    {
+      "name": "Colostrum Supplement"
+    },
+    {
+      "name": "Focused Care"
+    },
+    {
+      "name": "Organic Treatment"
+    },
+    {
+      "name": "Gastrointestinal Tracking"
+    },
+    {
+      "name": "Slim CBD"
+    },
+    {
+      "name": "Anonymous Support"
+    }
+  ]
+}

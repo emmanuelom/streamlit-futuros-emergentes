@@ -1,0 +1,63 @@
+{
+    "nodes": [
+      {"name": "AGROINDUSTRIA", "category": 0, "symbolSize": 50},
+      {"name": "ROBOTS AGRÍCOLAS AUTÓNOMOS", "category": 1, "symbolSize": 30,
+            "info": "El uso de robots agrícolas autónomos, inteligencia artificial y tecnologías de detección tiene como objetivo transformar la agricultura regenerativa ofreciendo soluciones libres de químicos que desafían los métodos agrícolas convencionales.",
+            "patents": "",
+            "scopus": ""},
+      {"name": "Agricultura regenerativa", "category": 1, "symbolSize": 20,
+        "info": "# Agricultura regenerativa",
+        "patents":"# Patentes \n* Una\n * Dos\n * Tres",
+        "scopus" : "# Scopus \n* Una\n * Dos\n * Tres"
+      },
+
+      {"name": "Control eficiente de malezas", "category": 1, "symbolSize": 20},
+      {"name": "Avances en agricultura", "category": 1, "symbolSize": 20},
+      {"name": "ASOCIACIONES AGRÍCOLAS IMPULSADAS POR LA TECNOLOGÍA", "category": 2, "symbolSize": 30},
+      {"name": "Agricultura vertical", "category": 2, "symbolSize": 20},
+      {"name": "Infraestructura inteligente", "category": 2, "symbolSize": 20},
+      {"name": "Automatización y control", "category": 2, "symbolSize": 20},
+      {"name": "IMPULSADA POR IA", "category": 3, "symbolSize": 30},
+      {"name": "Granja automatizada", "category": 3, "symbolSize": 20},
+      {"name": "Cultivo", "category": 3, "symbolSize": 15},
+      {"name": "Monitoreo", "category": 3, "symbolSize": 15},
+      {"name": "Hierba", "category": 3, "symbolSize": 15},
+      {"name": "Inteligente", "category": 3, "symbolSize": 15},
+      {"name": "Seguimiento de cultivos y deshierbe", "category": 3, "symbolSize": 20},
+      {"name": "Tractores auto conducidos", "category": 3, "symbolSize": 20},
+      {"name": "CAFÉ REGENERATIVO", "category": 4, "symbolSize": 30, "info": "jadajadajada"},
+      {"name": "Prácticas agrícolas regenerativas", "category": 4, "symbolSize": 20},
+      {"name": "Preferencia del consumidor por bienes sociales", "category": 4, "symbolSize": 20},
+      {"name": "Certificación para impacto social y ambiental", "category": 4, "symbolSize": 20}
+    ],
+    "links": [
+      {"source": "AGROINDUSTRIA", "target": "ROBOTS AGRÍCOLAS AUTÓNOMOS"},
+      {"source": "ROBOTS AGRÍCOLAS AUTÓNOMOS", "target": "Agricultura regenerativa"},
+      {"source": "ROBOTS AGRÍCOLAS AUTÓNOMOS", "target": "Control eficiente de malezas"},
+      {"source": "ROBOTS AGRÍCOLAS AUTÓNOMOS", "target": "Avances en agricultura"},
+      {"source": "AGROINDUSTRIA", "target": "ASOCIACIONES AGRÍCOLAS IMPULSADAS POR LA TECNOLOGÍA"},
+      {"source": "ASOCIACIONES AGRÍCOLAS IMPULSADAS POR LA TECNOLOGÍA", "target": "Agricultura vertical"},
+      {"source": "ASOCIACIONES AGRÍCOLAS IMPULSADAS POR LA TECNOLOGÍA", "target": "Infraestructura inteligente"},
+      {"source": "ASOCIACIONES AGRÍCOLAS IMPULSADAS POR LA TECNOLOGÍA", "target": "Automatización y control"},
+      {"source": "AGROINDUSTRIA", "target": "IMPULSADA POR IA"},
+      {"source": "IMPULSADA POR IA", "target": "Granja automatizada"},
+      {"source": "Granja automatizada", "target": "Cultivo"},
+      {"source": "Granja automatizada", "target": "Monitoreo"},
+      {"source": "Granja automatizada", "target": "Hierba"},
+      {"source": "Granja automatizada", "target": "Inteligente"},
+      {"source": "IMPULSADA POR IA", "target": "Seguimiento de cultivos y deshierbe"},
+      {"source": "IMPULSADA POR IA", "target": "Tractores auto conducidos"},
+      {"source": "AGROINDUSTRIA", "target": "CAFÉ REGENERATIVO"},
+      {"source": "CAFÉ REGENERATIVO", "target": "Prácticas agrícolas regenerativas"},
+      {"source": "CAFÉ REGENERATIVO", "target": "Preferencia del consumidor por bienes sociales"},
+      {"source": "CAFÉ REGENERATIVO", "target": "Certificación para impacto social y ambiental"}
+    ],
+    "categories": [
+      {"name": "AGROINDUSTRIA"},
+      {"name": "ROBOTS AGRÍCOLAS AUTÓNOMOS"},
+      {"name": "ASOCIACIONES AGRÍCOLAS IMPULSADAS POR LA TECNOLOGÍA"},
+      {"name": "IMPULSADA POR IA"},
+      {"name": "CAFÉ REGENERATIVO"}
+    ]
+  }
+  

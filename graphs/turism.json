@@ -1,0 +1,283 @@
+{
+  "nodes": [
+    {
+      "name": "Turism",
+      "category": 0,
+      "symbolSize": 50
+    },
+    {
+      "name": "Waste-Reduction Stay",
+      "category": 1,
+      "symbolSize": 30
+    },
+    {
+      "name": "Food Waste-Monitoring Solutions",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Sustainability-Focused Reusable Toothbrushes",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Sustainable Hotel Teas",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Plant-Based Milk Pods",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Eco-Friendly Hotel Soaps",
+      "category": 1,
+      "symbolSize": 20
+    },
+    {
+      "name": "Eco Event",
+      "category": 2,
+      "symbolSize": 30
+    },
+    {
+      "name": "3D Metaverse Fashions",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Zero-Waste Voucher Solutions",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Hybrid Events Platforms",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Solar-Powered Arenas",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Festival-Based Mycelium Pavlions",
+      "category": 2,
+      "symbolSize": 20
+    },
+    {
+      "name": "Local Hospitality",
+      "category": 3,
+      "symbolSize": 30
+    },
+    {
+      "name": "Local Heritage-Inspired Hotels",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Brutalist Mexican Hotels",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Locally Built Boutique Hotels",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Earthy Minimal Boutique Hotels",
+      "category": 3,
+      "symbolSize": 20
+    },
+    {
+      "name": "Compostable Cutlery",
+      "category": 4,
+      "symbolSize": 30
+    },
+    {
+      "name": "Home-Compostable Cutlery",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Fully Compostable Food Packaging",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Paper-Made Compostable Cutlery",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Eco-Friendly Single-Use Cutlery",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Sustainable Wooden Cutlery",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "name": "Planned Microcation",
+      "category": 5,
+      "symbolSize": 30
+    },
+    {
+      "name": "Microcation Planning Services",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "name": "Caribbean Microcation Destinations",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "name": "Content-Filled Short Vacations",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "name": "Pennsylvanian Micro-Vacations",
+      "category": 5,
+      "symbolSize": 20
+    }
+  ],
+  "links": [
+    {
+      "source": "Waste-Reduction Stay",
+      "target": "Food Waste-Monitoring Solutions"
+    },
+    {
+      "source": "Waste-Reduction Stay",
+      "target": "Sustainability-Focused Reusable Toothbrushes"
+    },
+    {
+      "source": "Waste-Reduction Stay",
+      "target": "Sustainable Hotel Teas"
+    },
+    {
+      "source": "Waste-Reduction Stay",
+      "target": "Plant-Based Milk Pods"
+    },
+    {
+      "source": "Waste-Reduction Stay",
+      "target": "Eco-Friendly Hotel Soaps"
+    },
+    {
+      "source": "Eco Event",
+      "target": "3D Metaverse Fashions"
+    },
+    {
+      "source": "Eco Event",
+      "target": "Zero-Waste Voucher Solutions"
+    },
+    {
+      "source": "Eco Event",
+      "target": "Hybrid Events Platforms"
+    },
+    {
+      "source": "Eco Event",
+      "target": "Solar-Powered Arenas"
+    },
+    {
+      "source": "Eco Event",
+      "target": "Festival-Based Mycelium Pavlions"
+    },
+    {
+      "source": "Local Hospitality",
+      "target": "Local Heritage-Inspired Hotels"
+    },
+    {
+      "source": "Local Hospitality",
+      "target": "Brutalist Mexican Hotels"
+    },
+    {
+      "source": "Local Hospitality",
+      "target": "Locally Built Boutique Hotels"
+    },
+    {
+      "source": "Local Hospitality",
+      "target": "Earthy Minimal Boutique Hotels"
+    },
+    {
+      "source": "Compostable Cutlery",
+      "target": "Home-Compostable Cutlery"
+    },
+    {
+      "source": "Compostable Cutlery",
+      "target": "Fully Compostable Food Packaging"
+    },
+    {
+      "source": "Compostable Cutlery",
+      "target": "Paper-Made Compostable Cutlery"
+    },
+    {
+      "source": "Compostable Cutlery",
+      "target": "Eco-Friendly Single-Use Cutlery"
+    },
+    {
+      "source": "Compostable Cutlery",
+      "target": "Sustainable Wooden Cutlery"
+    },
+    {
+      "source": "Planned Microcation",
+      "target": "Microcation Planning Services"
+    },
+    {
+      "source": "Planned Microcation",
+      "target": "Caribbean Microcation Destinations"
+    },
+    {
+      "source": "Planned Microcation",
+      "target": "Content-Filled Short Vacations"
+    },
+    {
+      "source": "Planned Microcation",
+      "target": "Pennsylvanian Micro-Vacations"
+    },
+    {
+      "source": "Turism",
+      "target": "Waste-Reduction Stay"
+    },
+    {
+      "source": "Turism",
+      "target": "Eco Event"
+    },
+    {
+      "source": "Turism",
+      "target": "Local Hospitality"
+    },
+    {
+      "source": "Turism",
+      "target": "Compostable Cutlery"
+    },
+    {
+      "source": "Turism",
+      "target": "Planned Microcation"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Turism"
+    },
+    {
+      "name": "Waste-Reduction Stay"
+    },
+    {
+      "name": "Eco Event"
+    },
+    {
+      "name": "Local Hospitality"
+    },
+    {
+      "name": "Compostable Cutlery"
+    },
+    {
+      "name": "Planned Microcation"
+    }
+  ]
+}
