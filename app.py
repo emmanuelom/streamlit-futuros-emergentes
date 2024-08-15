@@ -3,6 +3,7 @@ from streamlit_extras.app_logo import add_logo
 from custom_echarts.graph import load_data, render_graph, render_generic_graph, generate_generic_graph_data
 import pandas as pd
 import ast
+import json
 
 
 # Path to data & images
@@ -74,7 +75,7 @@ def main():
         # load selected sector data
         data = load_data(DATA[selected_api][0])
 
-        print(f"Data from {DATA[selected_api][0]}: {data}")
+        #print(f"Data from {DATA[selected_api][0]}: {data}")
         #data = generate_generic_graph_data()
 
         # Plot graph
@@ -82,15 +83,19 @@ def main():
             selected_node = render_graph(data, width="100%", height="700px", label_font_size=12)
             #selected_node = render_generic_graph(data, width="100%", height="700px", label_font_size=12)
         
-        # Verify selected node
-        if selected_node:
+        # Verify selected node is a subnode
+        if selected_node and selected_node['symbolSize']==20:
+            #print(f"Selected node size: {selected_node['symbolSize']==20}")
             with info_container:
                 # show Patent Pulse information
-                if selected_option == 'Tecnológico':
-                    st.markdown(f"Associated top patent categories for **{selected_node['name']}**")
-                    try:
-                        #print(f"data/{data_folder}/ppulse_{selected_node['name']}.csv")
-                        df_central_node = pd.read_csv(f"data/{data_folder}/ppulse_{selected_node['name']}.csv")
+                #print(f'Selected option: {selected_option}')
+                if selected_option == 'Tecnológico' or selected_option == 'Científico':
+                    # check if selected option is Tecnologico or Cientifico to load the data
+                    sel_op = 'ppulse' if selected_option == 'Tecnológico' else 'scopus'
+                    st.markdown(f"Associated top categories for **{selected_node['name']}**")
+                    
+                    try:    
+                        df_central_node = pd.read_csv(f"data/{data_folder}/{sel_op}_{selected_node['name']}.csv")
                         #pd.read_csv(selected_node['info'])
                         
                         #
@@ -112,10 +117,10 @@ def main():
                         st.dataframe(
                             df_central_node,
                             column_config={
+                                f"{'Categories' if selected_option == 'Tecnológico' else 'Dominant_Topic_Label'}": "Categories",
                                 "All Years": st.column_config.LineChartColumn( # BarChartColumn
-                                    f"Patents ({2024-num_years}-2024)", y_min=0, y_max=max_value, 
+                                    f"{'Patents' if selected_option == 'Tecnológico' else 'Papers'} ({2024-num_years}-2024)", y_min=0, y_max=max_value, 
                                     width="large",
-                                    help="The patents volume",
                                 ),
                                 
                             },
@@ -125,15 +130,23 @@ def main():
                         st.write(f"Sin información disponible de {selected_node['name']} en el eje {selected_option}")
                 elif selected_option == "Profesional":
                     st.markdown(f"Associated trend hunter topic for **{selected_node['name']}**")
-                    #st.components.v1.iframe("https://www.trendhunter.com/id/485683?ak=cr_3764e3c6095a42fb08e3a9c6d0ca1", height=400, scrolling=True)
-                    #st.page_link("https://www.trendhunter.com/id/485683?ak=cr_3764e3c6095a42fb08e3a9c6d0ca1", label="Trend Hunter", icon="🌎")
-                    #st.image("https://cdn.trendhunterstatic.com/phpthumbnails/485/485683/485683_1_468d.jpeg",
-                    #    width=400, # Manually Adjust the width of the image as per requirement
-                    #)
-                    st.markdown("[![Foo](https://cdn.trendhunterstatic.com/phpthumbnails/485/485683/485683_1_468d.jpeg)](https://www.trendhunter.com/report?ak=cr_3764e3c6095a42fb08e3a9c6d0ca1#idea=485683)")
-
+                    try:
+                        file_th = f"data/{data_folder}/trend_{selected_node['name']}.json"
+                        with open(file_th) as f:
+                            d = json.load(f)
+                        st.markdown(f"**Summary:** {d['info']}")
+                        st.page_link(d['url'], label="Trend Hunter", icon="🌎")
+                        #st.markdown("[![Foo](https://cdn.trendhunterstatic.com/phpthumbnails/485/485683/485683_1_468d.jpeg)](https://www.trendhunter.com/report?ak=cr_3764e3c6095a42fb08e3a9c6d0ca1#idea=485683)")
+                    except: 
+                        st.write(f"Sin información disponible en el eje {selected_option}")
                 else:
                     st.write(f"Sin información disponible en el eje {selected_option}")
+        elif selected_node['symbolSize']==30:
+            with info_container:
+                st.write(f"Info about parents nodes")
+        else:
+            with info_container:
+                st.write(f"Info about main node (Sector)")
 
 
 
