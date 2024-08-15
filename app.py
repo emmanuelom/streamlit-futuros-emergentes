@@ -141,12 +141,13 @@ def main():
                         st.write(f"Sin información disponible en el eje {selected_option}")
                 else:
                     st.write(f"Sin información disponible en el eje {selected_option}")
-        elif selected_node['symbolSize']==30:
+        elif selected_node and selected_node['symbolSize']==30:
             with info_container:
                 st.write(f"Info about parents nodes")
-        else:
+        elif selected_node and selected_node['symbolSize']==50:
             with info_container:
                 st.write(f"Info about main node (Sector)")
+        
 
 
 
