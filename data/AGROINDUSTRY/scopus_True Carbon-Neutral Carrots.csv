@@ -1,0 +1,6 @@
+Dominant_Topic_Label,Total,All Years
+Fuel/Energy/Emission/Engine/Waste/Oil/Soil,32,"[0, 1, 0, 0, 0, 0, 2, 1, 1, 0, 0, 2, 0, 3, 2, 2, 0, 0, 1, 4, 3, 0, 3, 7]"
+Fuel/Oil/Production/Biomass/Engine/Lipid/Acid,64,"[0, 1, 1, 1, 1, 0, 1, 0, 1, 2, 5, 6, 1, 5, 0, 1, 6, 0, 1, 5, 7, 10, 8, 1]"
+Oil/Emission/Soil/Acid/Plant/Seed/Food,46,"[0, 0, 0, 0, 1, 1, 1, 2, 6, 2, 1, 3, 7, 3, 2, 3, 2, 0, 2, 2, 3, 3, 0, 2]"
+Oil/Lipid/Acid/Fuel/Soil/Organic/Activity,60,"[1, 1, 0, 0, 2, 0, 2, 3, 1, 3, 8, 2, 2, 1, 3, 3, 3, 5, 5, 4, 3, 4, 2, 2]"
+Oil/Soil/Water/Activity/Plant/Seafood/Enzyme,36,"[0, 0, 1, 0, 0, 2, 2, 1, 1, 2, 5, 4, 3, 2, 0, 0, 1, 1, 2, 1, 3, 1, 3, 1]"

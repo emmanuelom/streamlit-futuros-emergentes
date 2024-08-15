@@ -1,0 +1,6 @@
+Dominant_Topic_Label,Total,All Years
+Plant/Production/Diet/Co2/Animal/Concentration/Invertase,23,"[0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 3, 2, 0, 3, 0, 1, 4, 3, 2]"
+Soil/Plant/Community/Maize/Cover/Rotation/Sub,51,"[1, 0, 0, 0, 2, 1, 0, 1, 2, 2, 1, 2, 3, 2, 0, 8, 1, 3, 4, 3, 3, 9, 2, 1]"
+Soil/Plant/Tillage/Productivity/Soc/Cropping/Wheat,21,"[0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 2, 1, 0, 1, 0, 1, 2, 1, 1, 0, 2, 4, 1]"
+Soil/Rotation/Plant/Tillage/Fallow/Year/Soc,87,"[0, 0, 1, 1, 2, 1, 2, 3, 3, 0, 7, 5, 0, 1, 2, 9, 6, 7, 5, 2, 9, 7, 3, 11]"
+Soil/Specie/Plant/Root/Treatment/Nitrogen/Plot,39,"[0, 2, 0, 0, 0, 1, 2, 3, 2, 0, 2, 1, 2, 1, 2, 1, 2, 2, 4, 4, 3, 4, 0, 1]"

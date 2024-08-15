@@ -1,0 +1,6 @@
+Dominant_Topic_Label,Total,All Years
+Agriculture/Device/Steering/Operation/Test/Drive/Cost,164,"[2, 2, 2, 2, 1, 5, 3, 2, 1, 4, 7, 4, 4, 6, 6, 4, 1, 6, 7, 15, 17, 15, 19, 22, 7]"
+Control/Path/Vehicle/Tracking/Controller/Steering/Error,262,"[4, 1, 2, 1, 10, 9, 3, 5, 3, 8, 6, 5, 2, 15, 10, 16, 7, 9, 12, 20, 13, 30, 24, 25, 22]"
+Plant/Agriculture/Land/Row/Operation/Image/Soil,32,"[0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 3, 1, 1, 0, 1, 1, 1, 0, 2, 0, 2, 9, 3, 3]"
+Vehicle/Agriculture/Control/Driving/Operation/Device/Land,176,"[1, 0, 0, 2, 3, 2, 2, 3, 5, 5, 3, 2, 7, 2, 5, 3, 6, 4, 14, 11, 14, 20, 28, 26, 8]"
+Vehicle/Trailer/Device/Motion/Planning/Truck/Path,131,"[1, 1, 0, 2, 4, 3, 1, 3, 3, 1, 3, 1, 1, 5, 5, 3, 7, 11, 4, 5, 10, 9, 18, 20, 10]"

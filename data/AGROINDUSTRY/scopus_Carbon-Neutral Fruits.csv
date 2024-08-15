@@ -1,0 +1,6 @@
+Dominant_Topic_Label,Total,All Years
+Acid/Plant/Temperature/Fuel/Production/Biomass/Peel,35,"[0, 1, 1, 0, 0, 1, 2, 1, 1, 0, 0, 1, 1, 2, 0, 2, 5, 2, 4, 1, 3, 5, 1, 1]"
+Activity/Sucrose/Metabolism/Sugar/Sorbitol/Stage/Enzyme,40,"[1, 1, 0, 0, 1, 0, 2, 1, 0, 0, 3, 3, 2, 2, 0, 2, 0, 2, 3, 2, 3, 4, 3, 5]"
+Adsorption/Activated/Energy/Surface/Dye/Water/Orange,42,"[0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2, 4, 2, 3, 2, 4, 4, 2, 3, 3, 6, 2, 3]"
+Emission/Water/Fuel/Acid/Removal/Vegetable/Production,51,"[1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 3, 2, 2, 1, 1, 2, 5, 2, 2, 4, 8, 7, 9]"
+Waste/Energy/Biomass/Production/Soil/Organic/Fuel,62,"[0, 1, 0, 2, 0, 0, 1, 0, 2, 2, 0, 0, 2, 4, 4, 0, 3, 7, 2, 6, 5, 11, 3, 7]"
