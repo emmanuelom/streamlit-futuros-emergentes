@@ -191,3 +191,13 @@ if __name__ == "__main__":
 
     st.markdown(hide_manage_app_button, unsafe_allow_html=True)
 
+    # Add custom CSS to hide the Hosted with stremlit element
+    hide_div_element = """
+        <style>
+        div.viewerBadge_link__qRIco {
+            display: none !important;
+        }
+        </style>
+        """
+
+    st.markdown(hide_div_element, unsafe_allow_html=True)
