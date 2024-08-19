@@ -169,6 +169,17 @@ if __name__ == "__main__":
     </style><div class='footer'><p>Universidad De La Salle Bajío - Dirección de Investigación y Doctorado &copy; Copyright 2024. <br /> Investigación de futuros: Prospectiva de tendencias científicas y tecnológicas en Guanajuato. Con clave IDEA GTO/SG/386/2023</p></div>"""
     st.markdown(footer, unsafe_allow_html=True)
 
+    # Add custom CSS to hide the entire header section
+    hide_header = """
+        <style>
+        header[data-testid="stHeader"] {
+            display: none !important;
+        }
+        </style>
+        """
+
+    st.markdown(hide_header, unsafe_allow_html=True)
+
     st.markdown(
     """
     <style>
@@ -181,3 +192,4 @@ if __name__ == "__main__":
     """,
     unsafe_allow_html=True
 )
+
