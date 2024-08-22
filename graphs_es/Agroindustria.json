@@ -1,0 +1,185 @@
+{
+    "nodes": [
+        {
+            "name": "Agroindustria",
+            "category": 0,
+            "symbolSize": 50
+        },
+        {
+            "name": "Agricultura impulsada por IA",
+            "category": 1,
+            "symbolSize": 30,
+            "info": "datos/ppulse_Agricultura impulsada por IA.csv"
+        },
+        {
+            "name": "Vegetales sin emisiones de carbono",
+            "category": 2,
+            "symbolSize": 30,
+            "info": "datos/ppulse_Zero-Carbon Vegetable.csv"
+        },
+        {
+            "name": "Sistemas de producción de alimentos éticos",
+            "category": 3,
+            "symbolSize": 30,
+            "info": "data/ppulse_Sistemas de producción ética de alimentos.csv"
+        },
+        {
+            "name": "Tractores agrícolas autónomos",
+            "category": 1,
+            "symbolSize": 20,
+            "info": "datos/ppulse_Tractores agrícolas autónomos.csv"
+        },
+        {
+            "name": "Gallineros móviles",
+            "category": 1,
+            "symbolSize": 20,
+            "info": "datos/ppulse_Gallineros móviles.csv"
+        },
+        {
+            "name": "Agricultura vertical",
+            "category": 1,
+            "symbolSize": 20,
+            "info": "datos/ppulse_Agricultura vertical.csv"
+        },
+        {
+            "name": "Robots agrícolas para el monitoreo de cultivos",
+            "category": 1,
+            "symbolSize": 20,
+            "info": "datos/ppulse_Robots agrícolas para el monitoreo de cultivos.csv"
+        },
+        {
+            "name": "Robots agrícolas automatizados",
+            "category": 1,
+            "symbolSize": 20,
+            "info": "datos/ppulse_Robots agrícolas automatizados.csv"
+        },
+        {
+            "name": "Herramientas de previsión de agricultura basadas en inteligencia artificial",
+            "category": 1,
+            "symbolSize": 20,
+            "info": "Herramientas de previsión de agricultura de datos/ppulse_AI.csv"
+        },
+        {
+            "name": "Granjas con emisiones de carbono negativas",
+            "category": 2,
+            "symbolSize": 20,
+            "info": "datos/ppulse_Granjas Carbono Negativas.csv"
+        },
+        {
+            "name": "Frutas carbono neutrales",
+            "category": 2,
+            "symbolSize": 20,
+            "info": "datos/ppulse_Frutas neutrales en carbono.csv"
+        },
+        {
+            "name": "Piñas certificadas como carbono neutral",
+            "category": 2,
+            "symbolSize": 20,
+            "info": "datos/ppulse_Piñas certificadas como carbono neutral.csv"
+        },
+        {
+            "name": "Zanahorias verdaderamente neutras en carbono",
+            "category": 2,
+            "symbolSize": 20,
+            "info": "datos/ppulse_Zanahorias verdaderamente neutras en carbono.csv"
+        },
+        {
+            "name": "Café regenerativo",
+            "category": 3,
+            "symbolSize": 20,
+            "info": "datos/ppulse_Café regenerativo.csv"
+        },
+        {
+            "name": "Cacao alternativo",
+            "category": 3,
+            "symbolSize": 20,
+            "info": "datos/ppulse_Alternative cacao.csv"
+        },
+        {
+            "name": "Arándanos orgánicos cultivados de forma regenerativa",
+            "category": 3,
+            "symbolSize": 20,
+            "info": "datos/ppulse_Arándanos orgánicos cultivados de forma regenerativa.csv"
+        }
+    ],
+    "links": [
+        {
+            "source": "Agroindustria",
+            "target": "Agricultura impulsada por IA"
+        },
+        {
+            "source": "Agricultura impulsada por IA",
+            "target": "Tractores agrícolas autónomos"
+        },
+        {
+            "source": "Agricultura impulsada por IA",
+            "target": "Gallineros móviles"
+        },
+        {
+            "source": "Agricultura impulsada por IA",
+            "target": "Agricultura vertical"
+        },
+        {
+            "source": "Agricultura impulsada por IA",
+            "target": "Robots agrícolas para el monitoreo de cultivos"
+        },
+        {
+            "source": "Agricultura impulsada por IA",
+            "target": "Robots agrícolas automatizados"
+        },
+        {
+            "source": "Agricultura impulsada por IA",
+            "target": "Herramientas de previsión de agricultura basadas en inteligencia artificial"
+        },
+        {
+            "source": "Agroindustria",
+            "target": "Vegetales sin emisiones de carbono"
+        },
+        {
+            "source": "Vegetales sin emisiones de carbono",
+            "target": "Granjas con emisiones de carbono negativas"
+        },
+        {
+            "source": "Vegetales sin emisiones de carbono",
+            "target": "Frutas carbono neutrales"
+        },
+        {
+            "source": "Vegetales sin emisiones de carbono",
+            "target": "Piñas certificadas como carbono neutral"
+        },
+        {
+            "source": "Vegetales sin emisiones de carbono",
+            "target": "Zanahorias verdaderamente neutras en carbono"
+        },
+        {
+            "source": "Agroindustria",
+            "target": "Sistemas de producción de alimentos éticos"
+        },
+        {
+            "source": "Sistemas de producción de alimentos éticos",
+            "target": "Cacao alternativo"
+        },
+        {
+            "source": "Sistemas de producción de alimentos éticos",
+            "target": "Café regenerativo"
+        },
+        {
+            "source": "Sistemas de producción de alimentos éticos",
+            "target": "Arándanos orgánicos cultivados de forma regenerativa"
+        }
+    ],
+    "categories": [
+        {
+            "name": "Agroindustria"
+        },
+        {
+            "name": "Agricultura impulsada por IA"
+        },
+        {
+            "name": "Vegetales sin emisiones de carbono"
+        },
+        {
+            "name": "Sistemas de producción de alimentos éticos"
+        }
+    ]
+}

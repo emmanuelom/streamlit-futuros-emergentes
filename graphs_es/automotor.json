@@ -1,0 +1,199 @@
+{
+    "nodes": [
+        {
+            "name": "Fabricación de automóviles",
+            "category": 0,
+            "symbolSize": 50
+        },
+        {
+            "name": "Convertibles eléctricos de estilo retro",
+            "category": 1,
+            "symbolSize": 30
+        },
+        {
+            "name": "Casas de diseño de coches retro",
+            "category": 2,
+            "symbolSize": 30
+        },
+        {
+            "name": "Hatchbacks eléctricos cargados",
+            "category": 3,
+            "symbolSize": 30
+        },
+        {
+            "name": "Automóviles retro electrificados modernos",
+            "category": 4,
+            "symbolSize": 30
+        },
+        {
+            "name": "Elegante vehículo eléctrico futurista",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Supercoches convertibles que rugen",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Todos los diseños de furgonetas camper eléctricas",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Ediciones especiales de vehículos para la playa",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Remolques de alta gama para juegos",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Conceptos de vehículos eléctricos de alto rendimiento",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Diseño automotriz retro",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Vehículos de producción limitada",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Diseño clásico reinventado",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Re-lanzamientos de coches eléctricos retro",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Motores eléctricos duales",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Autos deportivos eléctricos",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Diseño de automóviles retrofuturista",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Integración de transmisión eléctrica",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Representaciones artísticas de automóviles conceptuales",
+            "category": 4,
+            "symbolSize": 20
+        }
+    ],
+    "links": [
+        {
+            "source": "Fabricación de automóviles",
+            "target": "Convertibles eléctricos de estilo retro"
+        },
+        {
+            "source": "Convertibles eléctricos de estilo retro",
+            "target": "Elegante vehículo eléctrico futurista"
+        },
+        {
+            "source": "Convertibles eléctricos de estilo retro",
+            "target": "Supercoches convertibles que rugen"
+        },
+        {
+            "source": "Convertibles eléctricos de estilo retro",
+            "target": "Todos los diseños de furgonetas camper eléctricas"
+        },
+        {
+            "source": "Convertibles eléctricos de estilo retro",
+            "target": "Ediciones especiales de vehículos para la playa"
+        },
+        {
+            "source": "Convertibles eléctricos de estilo retro",
+            "target": "Remolques de alta gama para juegos"
+        },
+        {
+            "source": "Convertibles eléctricos de estilo retro",
+            "target": "Conceptos de vehículos eléctricos de alto rendimiento"
+        },
+        {
+            "source": "Fabricación de automóviles",
+            "target": "Casas de diseño de coches retro"
+        },
+        {
+            "source": "Casas de diseño de coches retro",
+            "target": "Diseño automotriz retro"
+        },
+        {
+            "source": "Casas de diseño de coches retro",
+            "target": "Vehículos de producción limitada"
+        },
+        {
+            "source": "Casas de diseño de coches retro",
+            "target": "Diseño clásico reinventado"
+        },
+        {
+            "source": "Fabricación de automóviles",
+            "target": "Hatchbacks eléctricos cargados"
+        },
+        {
+            "source": "Hatchbacks eléctricos cargados",
+            "target": "Re-lanzamientos de coches eléctricos retro"
+        },
+        {
+            "source": "Hatchbacks eléctricos cargados",
+            "target": "Motores eléctricos duales"
+        },
+        {
+            "source": "Hatchbacks eléctricos cargados",
+            "target": "Autos deportivos eléctricos"
+        },
+        {
+            "source": "Fabricación de automóviles",
+            "target": "Automóviles retro electrificados modernos"
+        },
+        {
+            "source": "Automóviles retro electrificados modernos",
+            "target": "Diseño de automóviles retrofuturista"
+        },
+        {
+            "source": "Automóviles retro electrificados modernos",
+            "target": "Integración de transmisión eléctrica"
+        },
+        {
+            "source": "Automóviles retro electrificados modernos",
+            "target": "Representaciones artísticas de automóviles conceptuales"
+        }
+    ],
+    "categories": [
+        {
+            "name": "Fabricación de automóviles"
+        },
+        {
+            "name": "Convertibles eléctricos de estilo retro"
+        },
+        {
+            "name": "Casas de diseño de coches retro"
+        },
+        {
+            "name": "Hatchbacks eléctricos cargados"
+        },
+        {
+            "name": "Automóviles retro electrificados modernos"
+        }
+    ]
+}

@@ -1,0 +1,313 @@
+{
+    "nodes": [
+        {
+            "name": "Salud",
+            "category": 0,
+            "symbolSize": 50
+        },
+        {
+            "name": "Suplemento de calostro",
+            "category": 1,
+            "symbolSize": 30
+        },
+        {
+            "name": "Superalimentos con calostro con sabor a sandía",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Suplementos a base de calostro viral",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Suplementos de calostro para apoyar las articulaciones",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Suplementos de calostro que refuerzan el sistema inmunológico",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Atención enfocada",
+            "category": 2,
+            "symbolSize": 30
+        },
+        {
+            "name": "Programas de inteligencia artificial para el cuidado de la salud",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Soluciones de atención virtual en el hogar",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Servicios de salud respaldados por inteligencia artificial",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Servicios de estimación del tratamiento del cáncer",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Tratamiento orgánico",
+            "category": 3,
+            "symbolSize": 30
+        },
+        {
+            "name": "Productos holísticos anticongestión",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Cuidado orgánico de la piel para todo el cuerpo",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Medicamentos para el resfriado con ingredientes limpios",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Suplementos inmunológicos tipo helado",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Están los niños libres de medicamentos para el resfriado",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Seguimiento gastrointestinal",
+            "category": 4,
+            "symbolSize": 30
+        },
+        {
+            "name": "Aplicaciones para controlar la acidez estomacal",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Aplicaciones de salud intestinal impulsadas por IA",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Aplicaciones para la salud digestiva",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Clínicas virtuales de atención gastrointestinal",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "CBD inteligente",
+            "category": 5,
+            "symbolSize": 30
+        },
+        {
+            "name": "Polvos para bebidas de cannabis sin sabor",
+            "category": 5,
+            "symbolSize": 20
+        },
+        {
+            "name": "Aguas con gas CBD Slim",
+            "category": 5,
+            "symbolSize": 20
+        },
+        {
+            "name": "Geles blandos de CBD centrados en el estilo de vida",
+            "category": 5,
+            "symbolSize": 20
+        },
+        {
+            "name": "Gomitas de CBD dirigidas a deportistas",
+            "category": 5,
+            "symbolSize": 20
+        },
+        {
+            "name": "Soporte anónimo",
+            "category": 6,
+            "symbolSize": 30
+        },
+        {
+            "name": "Aplicaciones de salud centradas en la Generación Z",
+            "category": 6,
+            "symbolSize": 20
+        },
+        {
+            "name": "Comunidades de salud mental en línea",
+            "category": 6,
+            "symbolSize": 20
+        },
+        {
+            "name": "Plataformas de apoyo conectadas entre pares",
+            "category": 6,
+            "symbolSize": 20
+        },
+        {
+            "name": "Aplicaciones de salud centradas en la conexión",
+            "category": 6,
+            "symbolSize": 20
+        }
+    ],
+    "links": [
+        {
+            "source": "Suplemento de calostro",
+            "target": "Superalimentos con calostro con sabor a sandía"
+        },
+        {
+            "source": "Suplemento de calostro",
+            "target": "Suplementos a base de calostro viral"
+        },
+        {
+            "source": "Suplemento de calostro",
+            "target": "Suplementos de calostro para apoyar las articulaciones"
+        },
+        {
+            "source": "Suplemento de calostro",
+            "target": "Suplementos de calostro que refuerzan el sistema inmunológico"
+        },
+        {
+            "source": "Atención enfocada",
+            "target": "Programas de inteligencia artificial para el cuidado de la salud"
+        },
+        {
+            "source": "Atención enfocada",
+            "target": "Soluciones de atención virtual en el hogar"
+        },
+        {
+            "source": "Atención enfocada",
+            "target": "Servicios de salud respaldados por inteligencia artificial"
+        },
+        {
+            "source": "Atención enfocada",
+            "target": "Servicios de estimación del tratamiento del cáncer"
+        },
+        {
+            "source": "Tratamiento orgánico",
+            "target": "Productos holísticos anticongestión"
+        },
+        {
+            "source": "Tratamiento orgánico",
+            "target": "Cuidado orgánico de la piel para todo el cuerpo"
+        },
+        {
+            "source": "Tratamiento orgánico",
+            "target": "Medicamentos para el resfriado con ingredientes limpios"
+        },
+        {
+            "source": "Tratamiento orgánico",
+            "target": "Suplementos inmunológicos tipo helado"
+        },
+        {
+            "source": "Tratamiento orgánico",
+            "target": "Están los niños libres de medicamentos para el resfriado"
+        },
+        {
+            "source": "Seguimiento gastrointestinal",
+            "target": "Aplicaciones para controlar la acidez estomacal"
+        },
+        {
+            "source": "Seguimiento gastrointestinal",
+            "target": "Aplicaciones de salud intestinal impulsadas por IA"
+        },
+        {
+            "source": "Seguimiento gastrointestinal",
+            "target": "Aplicaciones para la salud digestiva"
+        },
+        {
+            "source": "Seguimiento gastrointestinal",
+            "target": "Clínicas virtuales de atención gastrointestinal"
+        },
+        {
+            "source": "CBD inteligente",
+            "target": "Polvos para bebidas de cannabis sin sabor"
+        },
+        {
+            "source": "CBD inteligente",
+            "target": "Aguas con gas CBD Slim"
+        },
+        {
+            "source": "CBD inteligente",
+            "target": "Geles blandos de CBD centrados en el estilo de vida"
+        },
+        {
+            "source": "CBD inteligente",
+            "target": "Gomitas de CBD dirigidas a deportistas"
+        },
+        {
+            "source": "Soporte anónimo",
+            "target": "Aplicaciones de salud centradas en la Generación Z"
+        },
+        {
+            "source": "Soporte anónimo",
+            "target": "Comunidades de salud mental en línea"
+        },
+        {
+            "source": "Soporte anónimo",
+            "target": "Plataformas de apoyo conectadas entre pares"
+        },
+        {
+            "source": "Soporte anónimo",
+            "target": "Aplicaciones de salud centradas en la conexión"
+        },
+        {
+            "source": "Salud",
+            "target": "Suplemento de calostro"
+        },
+        {
+            "source": "Salud",
+            "target": "Atención enfocada"
+        },
+        {
+            "source": "Salud",
+            "target": "Tratamiento orgánico"
+        },
+        {
+            "source": "Salud",
+            "target": "Seguimiento gastrointestinal"
+        },
+        {
+            "source": "Salud",
+            "target": "CBD inteligente"
+        },
+        {
+            "source": "Salud",
+            "target": "Soporte anónimo"
+        }
+    ],
+    "categories": [
+        {
+            "name": "Salud"
+        },
+        {
+            "name": "Suplemento de calostro"
+        },
+        {
+            "name": "Atención enfocada"
+        },
+        {
+            "name": "Tratamiento orgánico"
+        },
+        {
+            "name": "Seguimiento gastrointestinal"
+        },
+        {
+            "name": "CBD inteligente"
+        },
+        {
+            "name": "Soporte anónimo"
+        }
+    ]
+}

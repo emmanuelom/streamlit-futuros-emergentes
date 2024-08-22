@@ -1,0 +1,275 @@
+{
+    "nodes": [
+        {
+            "name": "Energía y agua",
+            "category": 0,
+            "symbolSize": 50
+        },
+        {
+            "name": "Motocicletas impulsadas por hidrógeno",
+            "category": 1,
+            "symbolSize": 30
+        },
+        {
+            "name": "Impulsado por hidrógeno",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Motores sostenibles",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Asociación de Investigación Hyse",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Motocicletas roadster refrigeradas por líquido",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Motocicletas eléctricas con batería intercambiable",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Motocicletas eléctricas de alto rendimiento",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Motos eléctricas desnudas",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Motos eléctricas que cambian de forma",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Motocicletas modulares con gran tecnología",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Bicicleta con pila de combustible de hidrógeno",
+            "category": 2,
+            "symbolSize": 30
+        },
+        {
+            "name": "Adopción de pilas de combustible de hidrógeno",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Sostenibilidad de la micromovilidad",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Ingeniería de código abierto",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Bicicletas eléctricas impulsadas por hidrógeno",
+            "category": 3,
+            "symbolSize": 30
+        },
+        {
+            "name": "Bicicletas eléctricas compactas impulsadas por IA",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Bicicletas eléctricas europeas de alta velocidad",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Modelos de bicicletas eléctricas de alta potencia",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Minimotos futuristas",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Bicicletas eléctricas de carga de bajo escalón",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Bicicletas eléctricas de carbono",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Motocicletas de hidrógeno centradas en la investigación",
+            "category": 4,
+            "symbolSize": 30
+        },
+        {
+            "name": "Motos eléctricas de alto rendimiento",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Motos furtivas con autoequilibrio",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Elegantes motos eléctricas futuristas",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Motos eléctricas que absorben los golpes",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Motos eléctricas de estilo retro",
+            "category": 4,
+            "symbolSize": 20
+        }
+    ],
+    "links": [
+        {
+            "source": "Motocicletas impulsadas por hidrógeno",
+            "target": "Impulsado por hidrógeno"
+        },
+        {
+            "source": "Motocicletas impulsadas por hidrógeno",
+            "target": "Motores sostenibles"
+        },
+        {
+            "source": "Motocicletas impulsadas por hidrógeno",
+            "target": "Asociación de Investigación Hyse"
+        },
+        {
+            "source": "Motocicletas impulsadas por hidrógeno",
+            "target": "Motocicletas roadster refrigeradas por líquido"
+        },
+        {
+            "source": "Motocicletas impulsadas por hidrógeno",
+            "target": "Motocicletas eléctricas con batería intercambiable"
+        },
+        {
+            "source": "Motocicletas impulsadas por hidrógeno",
+            "target": "Motocicletas eléctricas de alto rendimiento"
+        },
+        {
+            "source": "Motocicletas impulsadas por hidrógeno",
+            "target": "Motos eléctricas desnudas"
+        },
+        {
+            "source": "Motocicletas impulsadas por hidrógeno",
+            "target": "Motos eléctricas que cambian de forma"
+        },
+        {
+            "source": "Motocicletas impulsadas por hidrógeno",
+            "target": "Motocicletas modulares con gran tecnología"
+        },
+        {
+            "source": "Bicicleta con pila de combustible de hidrógeno",
+            "target": "Adopción de pilas de combustible de hidrógeno"
+        },
+        {
+            "source": "Bicicleta con pila de combustible de hidrógeno",
+            "target": "Sostenibilidad de la micromovilidad"
+        },
+        {
+            "source": "Bicicleta con pila de combustible de hidrógeno",
+            "target": "Ingeniería de código abierto"
+        },
+        {
+            "source": "Bicicletas eléctricas impulsadas por hidrógeno",
+            "target": "Bicicletas eléctricas compactas impulsadas por IA"
+        },
+        {
+            "source": "Bicicletas eléctricas impulsadas por hidrógeno",
+            "target": "Bicicletas eléctricas europeas de alta velocidad"
+        },
+        {
+            "source": "Bicicletas eléctricas impulsadas por hidrógeno",
+            "target": "Modelos de bicicletas eléctricas de alta potencia"
+        },
+        {
+            "source": "Bicicletas eléctricas impulsadas por hidrógeno",
+            "target": "Minimotos futuristas"
+        },
+        {
+            "source": "Bicicletas eléctricas impulsadas por hidrógeno",
+            "target": "Bicicletas eléctricas de carga de bajo escalón"
+        },
+        {
+            "source": "Bicicletas eléctricas impulsadas por hidrógeno",
+            "target": "Bicicletas eléctricas de carbono"
+        },
+        {
+            "source": "Motocicletas de hidrógeno centradas en la investigación",
+            "target": "Motos eléctricas de alto rendimiento"
+        },
+        {
+            "source": "Motocicletas de hidrógeno centradas en la investigación",
+            "target": "Motos furtivas con autoequilibrio"
+        },
+        {
+            "source": "Motocicletas de hidrógeno centradas en la investigación",
+            "target": "Elegantes motos eléctricas futuristas"
+        },
+        {
+            "source": "Motocicletas de hidrógeno centradas en la investigación",
+            "target": "Motos eléctricas que absorben los golpes"
+        },
+        {
+            "source": "Motocicletas de hidrógeno centradas en la investigación",
+            "target": "Motos eléctricas de estilo retro"
+        },
+        {
+            "source": "Motocicletas de hidrógeno centradas en la investigación",
+            "target": "Motos eléctricas desnudas"
+        },
+        {
+            "source": "Energía y agua",
+            "target": "Motocicletas impulsadas por hidrógeno"
+        },
+        {
+            "source": "Energía y agua",
+            "target": "Bicicleta con pila de combustible de hidrógeno"
+        },
+        {
+            "source": "Energía y agua",
+            "target": "Bicicletas eléctricas impulsadas por hidrógeno"
+        },
+        {
+            "source": "Energía y agua",
+            "target": "Motocicletas de hidrógeno centradas en la investigación"
+        }
+    ],
+    "categories": [
+        {
+            "name": "Energía y agua"
+        },
+        {
+            "name": "Motocicletas impulsadas por hidrógeno"
+        },
+        {
+            "name": "Bicicleta con pila de combustible de hidrógeno"
+        },
+        {
+            "name": "Bicicletas eléctricas impulsadas por hidrógeno"
+        },
+        {
+            "name": "Motocicletas de hidrógeno centradas en la investigación"
+        }
+    ]
+}

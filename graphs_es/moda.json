@@ -1,0 +1,292 @@
+{
+    "nodes": [
+        {
+            "name": "Moda",
+            "category": 0,
+            "symbolSize": 50
+        },
+        {
+            "name": "Cuero de micelio",
+            "category": 1,
+            "symbolSize": 30
+        },
+        {
+            "name": "Bolsas deportivas a base de hongos",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Soluciones para asientos de cuero con efecto hongo",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Diseños de habitaciones construidas con hongos",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Moda biomaterial lista para usar",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Bolsas de micelio de lujo",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Cuencos de frutas con piel de seta",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Moda infrarroja",
+            "category": 2,
+            "symbolSize": 30
+        },
+        {
+            "name": "Guantes de invierno calefactados y duraderos",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Monos termorreguladores versátiles",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Calcetines infrarrojos avanzados",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Moda de otoño con temática criogénica",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Camisetas de entrenamiento que reflejan la energía",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Zapato de recuperación",
+            "category": 3,
+            "symbolSize": 30
+        },
+        {
+            "name": "Zapatos para después de la escalada",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Mules de recuperación con suela gruesa",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Zapatos de recuperación de espuma esculpida",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Zapatos de recuperación sin cordones",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Lino oceánico",
+            "category": 4,
+            "symbolSize": 30
+        },
+        {
+            "name": "Textiles elaborados con desechos del océano",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Tejidos de hilo PET reciclado",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Hilos de poliéster reciclado",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Textiles de tapicería respetuosos con el medio ambiente",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Mula funcional",
+            "category": 5,
+            "symbolSize": 30
+        },
+        {
+            "name": "Mules modulares minimalistas",
+            "category": 5,
+            "symbolSize": 20
+        },
+        {
+            "name": "Calzado tipo mula moldeado",
+            "category": 5,
+            "symbolSize": 20
+        },
+        {
+            "name": "Mules monocromáticos elegantes",
+            "category": 5,
+            "symbolSize": 20
+        },
+        {
+            "name": "Mules de piel acolchada",
+            "category": 5,
+            "symbolSize": 20
+        },
+        {
+            "name": "Zapatillas tipo mules híbridas tonales",
+            "category": 5,
+            "symbolSize": 20
+        }
+    ],
+    "links": [
+        {
+            "source": "Cuero de micelio",
+            "target": "Bolsas deportivas a base de hongos"
+        },
+        {
+            "source": "Cuero de micelio",
+            "target": "Soluciones para asientos de cuero con efecto hongo"
+        },
+        {
+            "source": "Cuero de micelio",
+            "target": "Diseños de habitaciones construidas con hongos"
+        },
+        {
+            "source": "Cuero de micelio",
+            "target": "Moda biomaterial lista para usar"
+        },
+        {
+            "source": "Cuero de micelio",
+            "target": "Bolsas de micelio de lujo"
+        },
+        {
+            "source": "Cuero de micelio",
+            "target": "Cuencos de frutas con piel de seta"
+        },
+        {
+            "source": "Moda infrarroja",
+            "target": "Guantes de invierno calefactados y duraderos"
+        },
+        {
+            "source": "Moda infrarroja",
+            "target": "Monos termorreguladores versátiles"
+        },
+        {
+            "source": "Moda infrarroja",
+            "target": "Calcetines infrarrojos avanzados"
+        },
+        {
+            "source": "Moda infrarroja",
+            "target": "Moda de otoño con temática criogénica"
+        },
+        {
+            "source": "Moda infrarroja",
+            "target": "Camisetas de entrenamiento que reflejan la energía"
+        },
+        {
+            "source": "Zapato de recuperación",
+            "target": "Zapatos para después de la escalada"
+        },
+        {
+            "source": "Zapato de recuperación",
+            "target": "Mules de recuperación con suela gruesa"
+        },
+        {
+            "source": "Zapato de recuperación",
+            "target": "Zapatos de recuperación de espuma esculpida"
+        },
+        {
+            "source": "Zapato de recuperación",
+            "target": "Zapatos de recuperación sin cordones"
+        },
+        {
+            "source": "Lino oceánico",
+            "target": "Textiles elaborados con desechos del océano"
+        },
+        {
+            "source": "Lino oceánico",
+            "target": "Tejidos de hilo PET reciclado"
+        },
+        {
+            "source": "Lino oceánico",
+            "target": "Hilos de poliéster reciclado"
+        },
+        {
+            "source": "Lino oceánico",
+            "target": "Textiles de tapicería respetuosos con el medio ambiente"
+        },
+        {
+            "source": "Mula funcional",
+            "target": "Mules modulares minimalistas"
+        },
+        {
+            "source": "Mula funcional",
+            "target": "Calzado tipo mula moldeado"
+        },
+        {
+            "source": "Mula funcional",
+            "target": "Mules monocromáticos elegantes"
+        },
+        {
+            "source": "Mula funcional",
+            "target": "Mules de piel acolchada"
+        },
+        {
+            "source": "Mula funcional",
+            "target": "Zapatillas tipo mules híbridas tonales"
+        },
+        {
+            "source": "Moda",
+            "target": "Cuero de micelio"
+        },
+        {
+            "source": "Moda",
+            "target": "Moda infrarroja"
+        },
+        {
+            "source": "Moda",
+            "target": "Zapato de recuperación"
+        },
+        {
+            "source": "Moda",
+            "target": "Lino oceánico"
+        },
+        {
+            "source": "Moda",
+            "target": "Mula funcional"
+        }
+    ],
+    "categories": [
+        {
+            "name": "Moda"
+        },
+        {
+            "name": "Cuero de micelio"
+        },
+        {
+            "name": "Moda infrarroja"
+        },
+        {
+            "name": "Zapato de recuperación"
+        },
+        {
+            "name": "Lino oceánico"
+        },
+        {
+            "name": "Mula funcional"
+        }
+    ]
+}

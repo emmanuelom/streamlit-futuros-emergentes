@@ -1,0 +1,283 @@
+{
+    "nodes": [
+        {
+            "name": "Turismo",
+            "category": 0,
+            "symbolSize": 50
+        },
+        {
+            "name": "Estancia de reducción de residuos",
+            "category": 1,
+            "symbolSize": 30
+        },
+        {
+            "name": "Soluciones para el control del desperdicio de alimentos",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Cepillos de dientes reutilizables enfocados en la sostenibilidad",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Tés de hotel sostenibles",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Cápsulas de leche de origen vegetal",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Jabones ecológicos para hoteles",
+            "category": 1,
+            "symbolSize": 20
+        },
+        {
+            "name": "Evento ecológico",
+            "category": 2,
+            "symbolSize": 30
+        },
+        {
+            "name": "Modas del metaverso 3D",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Soluciones de vales de residuos cero",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Plataformas de eventos híbridos",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Estadios con energía solar",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Pabellones de micelio en el marco del festival",
+            "category": 2,
+            "symbolSize": 20
+        },
+        {
+            "name": "Hospitalidad local",
+            "category": 3,
+            "symbolSize": 30
+        },
+        {
+            "name": "Hoteles inspirados en el patrimonio local",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Hoteles mexicanos brutalistas",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Hoteles boutique construidos localmente",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Hoteles boutique minimalistas y terrosos",
+            "category": 3,
+            "symbolSize": 20
+        },
+        {
+            "name": "Cubiertos compostables",
+            "category": 4,
+            "symbolSize": 30
+        },
+        {
+            "name": "Cubiertos compostables en casa",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Envases para alimentos totalmente compostables",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Cubiertos compostables fabricados con papel",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Cubiertos ecológicos de un solo uso",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Cubiertos de madera sostenibles",
+            "category": 4,
+            "symbolSize": 20
+        },
+        {
+            "name": "Microcación planificada",
+            "category": 5,
+            "symbolSize": 30
+        },
+        {
+            "name": "Servicios de planificación de microvacaciones",
+            "category": 5,
+            "symbolSize": 20
+        },
+        {
+            "name": "Destinos de microvacaciones en el Caribe",
+            "category": 5,
+            "symbolSize": 20
+        },
+        {
+            "name": "Vacaciones cortas llenas de contenido",
+            "category": 5,
+            "symbolSize": 20
+        },
+        {
+            "name": "Microvacaciones en Pensilvania",
+            "category": 5,
+            "symbolSize": 20
+        }
+    ],
+    "links": [
+        {
+            "source": "Estancia de reducción de residuos",
+            "target": "Soluciones para el control del desperdicio de alimentos"
+        },
+        {
+            "source": "Estancia de reducción de residuos",
+            "target": "Cepillos de dientes reutilizables enfocados en la sostenibilidad"
+        },
+        {
+            "source": "Estancia de reducción de residuos",
+            "target": "Tés de hotel sostenibles"
+        },
+        {
+            "source": "Estancia de reducción de residuos",
+            "target": "Cápsulas de leche de origen vegetal"
+        },
+        {
+            "source": "Estancia de reducción de residuos",
+            "target": "Jabones ecológicos para hoteles"
+        },
+        {
+            "source": "Evento ecológico",
+            "target": "Modas del metaverso 3D"
+        },
+        {
+            "source": "Evento ecológico",
+            "target": "Soluciones de vales de residuos cero"
+        },
+        {
+            "source": "Evento ecológico",
+            "target": "Plataformas de eventos híbridos"
+        },
+        {
+            "source": "Evento ecológico",
+            "target": "Estadios con energía solar"
+        },
+        {
+            "source": "Evento ecológico",
+            "target": "Pabellones de micelio en el marco del festival"
+        },
+        {
+            "source": "Hospitalidad local",
+            "target": "Hoteles inspirados en el patrimonio local"
+        },
+        {
+            "source": "Hospitalidad local",
+            "target": "Hoteles mexicanos brutalistas"
+        },
+        {
+            "source": "Hospitalidad local",
+            "target": "Hoteles boutique construidos localmente"
+        },
+        {
+            "source": "Hospitalidad local",
+            "target": "Hoteles boutique minimalistas y terrosos"
+        },
+        {
+            "source": "Cubiertos compostables",
+            "target": "Cubiertos compostables en casa"
+        },
+        {
+            "source": "Cubiertos compostables",
+            "target": "Envases para alimentos totalmente compostables"
+        },
+        {
+            "source": "Cubiertos compostables",
+            "target": "Cubiertos compostables fabricados con papel"
+        },
+        {
+            "source": "Cubiertos compostables",
+            "target": "Cubiertos ecológicos de un solo uso"
+        },
+        {
+            "source": "Cubiertos compostables",
+            "target": "Cubiertos de madera sostenibles"
+        },
+        {
+            "source": "Microcación planificada",
+            "target": "Servicios de planificación de microvacaciones"
+        },
+        {
+            "source": "Microcación planificada",
+            "target": "Destinos de microvacaciones en el Caribe"
+        },
+        {
+            "source": "Microcación planificada",
+            "target": "Vacaciones cortas llenas de contenido"
+        },
+        {
+            "source": "Microcación planificada",
+            "target": "Microvacaciones en Pensilvania"
+        },
+        {
+            "source": "Turismo",
+            "target": "Estancia de reducción de residuos"
+        },
+        {
+            "source": "Turismo",
+            "target": "Evento ecológico"
+        },
+        {
+            "source": "Turismo",
+            "target": "Hospitalidad local"
+        },
+        {
+            "source": "Turismo",
+            "target": "Cubiertos compostables"
+        },
+        {
+            "source": "Turismo",
+            "target": "Microcación planificada"
+        }
+    ],
+    "categories": [
+        {
+            "name": "Turismo"
+        },
+        {
+            "name": "Estancia de reducción de residuos"
+        },
+        {
+            "name": "Evento ecológico"
+        },
+        {
+            "name": "Hospitalidad local"
+        },
+        {
+            "name": "Cubiertos compostables"
+        },
+        {
+            "name": "Microcación planificada"
+        }
+    ]
+}
