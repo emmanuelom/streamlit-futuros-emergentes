@@ -14,8 +14,25 @@ DATA = {"Agroindustrial": ["graphs/agroindustry.json", "AGROINDUSTRY"],
         "Turismo" : ["graphs/turism.json", "TURISM"],
         "Ciencias de la vida" : ["graphs/health.json", "HEALTH"]}
 
+DATA_ES = {"Agroindustrial": ["graphs_es/Agroindustria.json", "AGROINDUSTRIA"],
+        "Fabricación Automotores": ["graphs_es/automotive_fabricar.json", "AUTOMOTOR"],
+        "Energia y Agua": ["graphs_es/energy_y_agua.json", "ENERGÍA Y AGUA"],
+        "Moda" : ["graphs_es/moda.json", "MODA"],
+        "Turismo" : ["graphs_es/turismo.json", "TURISMO"],
+        "Ciencias de la vida" : ["graphs_es/salud.json", "SALUD"]}
+
 IMGS = {"logoIDEA": "images/200-Anos-ideaGTO.png",
-        "logoLASALLE": "images/ulsa-logo.png"}
+        "logoLASALLE": "images/ulsa-logo.png",
+        "logoFUTUROS": "images/Logo Radar del Futuro_Color.png"}
+
+
+@st.cache_data
+def read_links(filename):
+    print(f'Filename links: {filename}')
+    df = pd.read_csv(filename, sep=',')
+    print(f'links:\n{df.head()}')
+    # IMPORTANT: Cache the conversion to prevent computation on every rerun
+    return df.to_csv().encode("utf-8")
 
 
 # main interface: sliderbar, graph & info container
@@ -24,7 +41,7 @@ def main():
     with st.sidebar:
         st.image(IMGS["logoIDEA"])
         st.markdown("---")
-        st.image(IMGS["logoLASALLE"])
+        st.image(IMGS["logoFUTUROS"])
         st.markdown("---")
         # Sector selector
         st.header("Sector")
@@ -45,12 +62,15 @@ def main():
             label="Selecciona una opción",
             options=sub_options,
         )
-        st.markdown("---")
+        #st.markdown("---")
 
         # Caption
-        st.caption(
-                """Investigación de futuros: Prospectiva de tendencias científicas y tecnológicas en Guanajuato"""
-            )
+        #st.caption(
+        #        """Investigación de futuros: Prospectiva de tendencias científicas y tecnológicas en Guanajuato"""
+        #    )
+        
+        st.markdown("---")
+        st.image(IMGS["logoLASALLE"])
     
     # Create a list op api options
     api_list = list(api_options)
@@ -68,47 +88,37 @@ def main():
     # Add Information container
     info_container = st.expander("Ver más información")
 
-    # Verify the sector selection
-    if selected_api in api_list:
+    # Verify the sector selection and if their graph exist
+    if selected_api in api_list and selected_api in DATA_ES:
         # get data folder name
-        data_folder = DATA[selected_api][1] 
+        data_folder = DATA_ES[selected_api][1] 
         # load selected sector data
-        data = load_data(DATA[selected_api][0])
-
-        #print(f"Data from {DATA[selected_api][0]}: {data}")
-        #data = generate_generic_graph_data()
+        data = load_data(DATA_ES[selected_api][0])
 
         # Plot graph
         with plot_container:
             selected_node = render_graph(data, width="100%", height="700px", label_font_size=12)
-            #selected_node = render_generic_graph(data, width="100%", height="700px", label_font_size=12)
         
         # Verify selected node is a subnode
         if selected_node and selected_node['symbolSize']==20:
-            #print(f"Selected node size: {selected_node['symbolSize']==20}")
             with info_container:
                 # show Patent Pulse information
-                #print(f'Selected option: {selected_option}')
                 if selected_option == 'Tecnológico' or selected_option == 'Científico':
                     # check if selected option is Tecnologico or Cientifico to load the data
                     sel_op = 'ppulse' if selected_option == 'Tecnológico' else 'scopus'
-                    st.markdown(f"Associated top categories for **{selected_node['name']}**")
+                    st.markdown(f"Top categorias asociadas a: **{selected_node['name']}**")
                     
                     try:    
-                        df_central_node = pd.read_csv(f"data/{data_folder}/{sel_op}_{selected_node['name']}.csv")
-                        #pd.read_csv(selected_node['info'])
-                        
+                        df_central_node = pd.read_csv(f"data_es/{data_folder}/{sel_op}/{sel_op}_{selected_node['name']}.csv")
                         #
-                        df_central_node['All Years'] = df_central_node['All Years'].apply(lambda x: ast.literal_eval(x))
+                        df_central_node['Todos los años'] = df_central_node['Todos los años'].apply(lambda x: ast.literal_eval(x))
 
-                        # Extract all lists from 'All Years' column
-                        all_years_lists = df_central_node['All Years'].tolist()
+                        # Extract all lists from 'Todos los años' column
+                        all_years_lists = df_central_node['Todos los años'].tolist()
                         
-
                         # Flatten the lists into a single list
                         flattened_list = [item for sublist in all_years_lists for item in sublist]
                         num_years = len(all_years_lists[0])
-
 
                         # Find the maximum value in the flattened list
                         max_value = max(flattened_list)
@@ -117,25 +127,37 @@ def main():
                         st.dataframe(
                             df_central_node,
                             column_config={
-                                f"{'Categories' if selected_option == 'Tecnológico' else 'Dominant_Topic_Label'}": "Categories",
-                                "All Years": st.column_config.LineChartColumn( # BarChartColumn
-                                    f"{'Patents' if selected_option == 'Tecnológico' else 'Papers'} ({2024-num_years}-2024)", y_min=0, y_max=max_value, 
+                                f"{'Categorias' if selected_option == 'Tecnológico' else 'Etiqueta de tema dominante'}": "Categorias",
+                                "Todos los años": st.column_config.LineChartColumn( # BarChartColumn
+                                    f"{'Patentes' if selected_option == 'Tecnológico' else 'Artículos'} ({2024-num_years}-2024)", y_min=0, y_max=max_value, 
                                     width="large",
                                 ),
                                 
                             },
                             hide_index=True,
                         )
+
+                        try:
+                            content_filename = f"{sel_op}_link_{selected_node['name']}.csv"
+                            contents = read_links(f"data_es/{data_folder}/{sel_op}/{content_filename}")
+                            print(f'Link content: {contents}')
+                            st.download_button('Descargar Detalles', contents, content_filename)
+                        except:
+                            st.write(f"Sin más detalles por descargar")
+
                     except: 
                         st.write(f"Sin información disponible de {selected_node['name']} en el eje {selected_option}")
                 elif selected_option == "Profesional":
-                    st.markdown(f"Associated trend hunter topic for **{selected_node['name']}**")
+                    st.markdown(f"Topico asociado de Trend Hunter **{selected_node['name']}**")
                     try:
-                        file_th = f"data/{data_folder}/trend_{selected_node['name']}.json"
-                        with open(file_th) as f:
+                        file_th = f"data_es/{data_folder}/trend/trend_subnodo-{selected_node['name']}.json"
+                        #file_th = file_th.replace(" ", "-")
+                        print(f"File TH: {file_th}")
+                        with open(file_th, 'r', encoding='utf-8') as f:
                             d = json.load(f)
-                        st.markdown(f"**Summary:** {d['info']}")
-                        st.page_link(d['url'], label="Trend Hunter", icon="🌎")
+                        print(f"Data: {d}")
+                        st.markdown(f"**Resumen:** {d['info']}", unsafe_allow_html=True)
+                        #st.page_link(d['url'], label="Trend Hunter", icon="🌎")
                         #st.markdown("[![Foo](https://cdn.trendhunterstatic.com/phpthumbnails/485/485683/485683_1_468d.jpeg)](https://www.trendhunter.com/report?ak=cr_3764e3c6095a42fb08e3a9c6d0ca1#idea=485683)")
                     except: 
                         st.write(f"Sin información disponible en el eje {selected_option}")
@@ -143,10 +165,10 @@ def main():
                     st.write(f"Sin información disponible en el eje {selected_option}")
         elif selected_node and selected_node['symbolSize']==30:
             with info_container:
-                st.write(f"Info about parents nodes")
+                st.write(f"Info acerca de nodos padres")
         elif selected_node and selected_node['symbolSize']==50:
             with info_container:
-                st.write(f"Info about main node (Sector)")
+                st.write(f"Info acerca de nodo principal (Sector)")
         
 
 
@@ -169,7 +191,7 @@ if __name__ == "__main__":
     </style><div class='footer'><p>Universidad De La Salle Bajío - Dirección de Investigación y Doctorado &copy; Copyright 2024. <br /> Investigación de futuros: Prospectiva de tendencias científicas y tecnológicas en Guanajuato. Con clave IDEA GTO/SG/386/2023</p></div>"""
     st.markdown(footer, unsafe_allow_html=True)
 
-    # Add custom CSS to hide the entire header section
+        # Add custom CSS to hide the entire header section
     hide_header = """
         <style>
         header[data-testid="stHeader"] {
