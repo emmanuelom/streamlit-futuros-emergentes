@@ -28,9 +28,9 @@ IMGS = {"logoIDEA": "images/200-Anos-ideaGTO.png",
 
 @st.cache_data
 def read_links(filename):
-    print(f'Filename links: {filename}')
+    #print(f'Filename links: {filename}')
     df = pd.read_csv(filename, sep=',')
-    print(f'links:\n{df.head()}')
+    #print(f'links:\n{df.head()}')
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
     return df.to_csv().encode("utf-8")
 
@@ -140,8 +140,8 @@ def main():
                         try:
                             content_filename = f"{sel_op}_link_{selected_node['name']}.csv"
                             contents = read_links(f"data_es/{data_folder}/{sel_op}/{content_filename}")
-                            print(f'Link content: {contents}')
-                            st.download_button('Descargar Detalles', contents, content_filename)
+                            #print(f'Link content: {contents}')
+                            st.download_button(f"{'Descargar Patentes' if selected_option == 'Tecnológico' else 'Descarcar Artículos Top'}", contents, content_filename)
                         except:
                             st.write(f"Sin más detalles por descargar")
 
@@ -152,10 +152,10 @@ def main():
                     try:
                         file_th = f"data_es/{data_folder}/trend/trend_subnodo-{selected_node['name']}.json"
                         #file_th = file_th.replace(" ", "-")
-                        print(f"File TH: {file_th}")
+                        #print(f"File TH: {file_th}")
                         with open(file_th, 'r', encoding='utf-8') as f:
                             d = json.load(f)
-                        print(f"Data: {d}")
+                        #print(f"Data: {d}")
                         st.markdown(f"**Resumen:** {d['info']}", unsafe_allow_html=True)
                         #st.page_link(d['url'], label="Trend Hunter", icon="🌎")
                         #st.markdown("[![Foo](https://cdn.trendhunterstatic.com/phpthumbnails/485/485683/485683_1_468d.jpeg)](https://www.trendhunter.com/report?ak=cr_3764e3c6095a42fb08e3a9c6d0ca1#idea=485683)")
@@ -187,8 +187,24 @@ if __name__ == "__main__":
     main()
 
     # Add a custom footer.
-    footer = """<style>.footer {position: fixed;left: 0;bottom: 0;width: 100%;background-color: #1d285c;color: white;text-align: center;}
-    </style><div class='footer'><p>Universidad De La Salle Bajío - Dirección de Investigación y Doctorado &copy; Copyright 2024. <br /> Investigación de futuros: Prospectiva de tendencias científicas y tecnológicas en Guanajuato. Con clave IDEA GTO/SG/386/2023</p></div>"""
+    footer = """
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: calc(100% - 10rem); /* Adjusts the width to avoid the sidebar */
+        background-color: #1d285c;
+        color: white;
+        text-align: center;
+        z-index: 100;
+        margin-left: 10rem; /* Moves the footer to the right */
+    }
+    </style>
+    <div class='footer'>
+        <p>Universidad De La Salle Bajío - Dirección de Investigación y Doctorado &copy; Copyright 2024. <br /> Investigación de futuros: Prospectiva de tendencias científicas y tecnológicas en Guanajuato. Con clave IDEA GTO/SG/386/2023</p>
+    </div>
+    """
     st.markdown(footer, unsafe_allow_html=True)
 
         # Add custom CSS to hide the entire header section
