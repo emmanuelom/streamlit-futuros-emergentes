@@ -37,7 +37,7 @@ def read_links(filename):
 
 # main interface: sliderbar, graph & info container
 def main():        
-    st.title("Futuros Emergentes")
+    st.title("Radar del Futuro")
     with st.sidebar:
         st.image(IMGS["logoIDEA"])
         st.markdown("---")
@@ -157,7 +157,7 @@ def main():
                             d = json.load(f)
                         #print(f"Data: {d}")
                         st.markdown(f"**Resumen:** {d['info']}", unsafe_allow_html=True)
-                        #st.page_link(d['url'], label="Trend Hunter", icon="🌎")
+                        st.page_link(d['url'], label="Trend Hunter", icon="🌎")
                         #st.markdown("[![Foo](https://cdn.trendhunterstatic.com/phpthumbnails/485/485683/485683_1_468d.jpeg)](https://www.trendhunter.com/report?ak=cr_3764e3c6095a42fb08e3a9c6d0ca1#idea=485683)")
                     except: 
                         st.write(f"Sin información disponible en el eje {selected_option}")
