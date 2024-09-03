@@ -8,98 +8,82 @@
         {
             "name": "Agricultura impulsada por IA",
             "category": 1,
-            "symbolSize": 30,
-            "info": "datos/ppulse_Agricultura impulsada por IA.csv"
+            "symbolSize": 30
         },
         {
             "name": "Vegetales sin emisiones de carbono",
             "category": 2,
-            "symbolSize": 30,
-            "info": "datos/ppulse_Zero-Carbon Vegetable.csv"
+            "symbolSize": 30
         },
         {
             "name": "Sistemas de producción de alimentos éticos",
             "category": 3,
-            "symbolSize": 30,
-            "info": "data/ppulse_Sistemas de producción ética de alimentos.csv"
+            "symbolSize": 30
         },
         {
             "name": "Tractores agrícolas autónomos",
             "category": 1,
-            "symbolSize": 20,
-            "info": "datos/ppulse_Tractores agrícolas autónomos.csv"
+            "symbolSize": 20
         },
         {
             "name": "Gallineros móviles",
             "category": 1,
-            "symbolSize": 20,
-            "info": "datos/ppulse_Gallineros móviles.csv"
+            "symbolSize": 20
         },
         {
             "name": "Agricultura vertical",
             "category": 1,
-            "symbolSize": 20,
-            "info": "datos/ppulse_Agricultura vertical.csv"
+            "symbolSize": 20
         },
         {
             "name": "Robots agrícolas para el monitoreo de cultivos",
             "category": 1,
-            "symbolSize": 20,
-            "info": "datos/ppulse_Robots agrícolas para el monitoreo de cultivos.csv"
+            "symbolSize": 20
         },
         {
             "name": "Robots agrícolas automatizados",
             "category": 1,
-            "symbolSize": 20,
-            "info": "datos/ppulse_Robots agrícolas automatizados.csv"
+            "symbolSize": 20
         },
         {
             "name": "Herramientas de previsión de agricultura basadas en inteligencia artificial",
             "category": 1,
-            "symbolSize": 20,
-            "info": "Herramientas de previsión de agricultura de datos/ppulse_AI.csv"
+            "symbolSize": 20
         },
         {
             "name": "Granjas con emisiones de carbono negativas",
             "category": 2,
-            "symbolSize": 20,
-            "info": "datos/ppulse_Granjas Carbono Negativas.csv"
+            "symbolSize": 20
         },
         {
             "name": "Frutas carbono neutrales",
             "category": 2,
-            "symbolSize": 20,
-            "info": "datos/ppulse_Frutas neutrales en carbono.csv"
+            "symbolSize": 20
         },
         {
             "name": "Piñas certificadas como carbono neutral",
             "category": 2,
-            "symbolSize": 20,
-            "info": "datos/ppulse_Piñas certificadas como carbono neutral.csv"
+            "symbolSize": 20
         },
         {
             "name": "Zanahorias verdaderamente neutras en carbono",
             "category": 2,
-            "symbolSize": 20,
-            "info": "datos/ppulse_Zanahorias verdaderamente neutras en carbono.csv"
+            "symbolSize": 20
         },
         {
             "name": "Café regenerativo",
             "category": 3,
-            "symbolSize": 20,
-            "info": "datos/ppulse_Café regenerativo.csv"
+            "symbolSize": 20
         },
         {
             "name": "Cacao alternativo",
             "category": 3,
-            "symbolSize": 20,
-            "info": "datos/ppulse_Alternative cacao.csv"
+            "symbolSize": 20
         },
         {
             "name": "Arándanos orgánicos cultivados de forma regenerativa",
             "category": 3,
-            "symbolSize": 20,
-            "info": "datos/ppulse_Arándanos orgánicos cultivados de forma regenerativa.csv"
+            "symbolSize": 20
         }
     ],
     "links": [
