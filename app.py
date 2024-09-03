@@ -7,13 +7,6 @@ import json
 
 
 # Path to data & images
-DATA = {"Agroindustrial": ["graphs/agroindustry.json", "AGROINDUSTRY"],
-        "Fabricación Automotores": ["graphs/automotive_manufacture.json", "AUTOMOTIVE"],
-        "Energia y Agua": ["graphs/energy_and_water.json", "ENERGY_AND_WATER"],
-        "Moda" : ["graphs/fashion.json", "FASHION"],
-        "Turismo" : ["graphs/turism.json", "TURISM"],
-        "Ciencias de la vida" : ["graphs/health.json", "HEALTH"]}
-
 DATA_ES = {"Agroindustrial": ["graphs_es/Agroindustria.json", "AGROINDUSTRIA"],
         "Fabricación Automotores": ["graphs_es/automotive_fabricar.json", "AUTOMOTOR"],
         "Energia y Agua": ["graphs_es/energy_y_agua.json", "ENERGÍA Y AGUA"],
@@ -28,23 +21,21 @@ IMGS = {"logoIDEA": "images/200-Anos-ideaGTO.png",
 
 @st.cache_data
 def read_links(filename):
-    #print(f'Filename links: {filename}')
     df = pd.read_csv(filename, sep=',')
-    #print(f'links:\n{df.head()}')
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
     return df.to_csv().encode("utf-8")
 
 
 # main interface: sliderbar, graph & info container
 def main():        
-    st.title("Radar del Futuro")
+    st.title("Radar del Futuro", anchor=False)
     with st.sidebar:
         st.image(IMGS["logoIDEA"])
         st.markdown("---")
         st.image(IMGS["logoFUTUROS"])
         st.markdown("---")
         # Sector selector
-        st.header("Sector")
+        st.header("Sector", anchor=False)
         api_options = ("---", "Agroindustrial", "Moda", "Ciencias de la vida", "Movilidad",
                        "Turismo", "Fabricación Automotores", "Productos Químicos",
                        "Servicios basados en conocimientos", "Energia y Agua", "Gobierno"
@@ -56,34 +47,31 @@ def main():
         st.markdown("---")
 
         # Interest selector
-        st.header("Eje")
+        st.header("Eje", anchor=False)
         sub_options = ("---", "Tecnológico", "Profesional", "Científico")
         selected_option = st.selectbox(
             label="Selecciona una opción",
             options=sub_options,
         )
-        #st.markdown("---")
-
-        # Caption
-        #st.caption(
-        #        """Investigación de futuros: Prospectiva de tendencias científicas y tecnológicas en Guanajuato"""
-        #    )
         
         st.markdown("---")
         st.image(IMGS["logoLASALLE"])
+
+        st.markdown("---")
+        st.markdown('<a href="mailto:cbravo@lasallebajio.edu.mx">Contactanos !</a>', unsafe_allow_html=True)
     
     # Create a list op api options
     api_list = list(api_options)
     api_list = api_list[1:]
         
     # Add Sector subheader 
-    st.subheader(f"Sector: {selected_api if selected_api != '---' else ' Seleccione un sector'}")
+    st.subheader(f"Sector: {selected_api if selected_api != '---' else ' Seleccione un sector'}", anchor=False)
 
     # Add the graph container
     plot_container = st.container(border=True)
 
     # Add Eje subheader
-    st.subheader(f"Eje: {selected_option if selected_option != '---' else 'Seleccione un eje'}")
+    st.subheader(f"Eje: {selected_option if selected_option != '---' else 'Seleccione un eje'}", anchor=False)
 
     # Add Information container
     info_container = st.expander("Ver más información")
@@ -135,12 +123,12 @@ def main():
                                 
                             },
                             hide_index=True,
+                            use_container_width=True,
                         )
 
                         try:
                             content_filename = f"{sel_op}_link_{selected_node['name']}.csv"
                             contents = read_links(f"data_es/{data_folder}/{sel_op}/{content_filename}")
-                            #print(f'Link content: {contents}')
                             st.download_button(f"{'Descargar Patentes' if selected_option == 'Tecnológico' else 'Descarcar Artículos Top'}", contents, content_filename)
                         except:
                             st.write(f"Sin más detalles por descargar")
@@ -151,24 +139,20 @@ def main():
                     st.markdown(f"Topico asociado de Trend Hunter **{selected_node['name']}**")
                     try:
                         file_th = f"data_es/{data_folder}/trend/trend_subnodo-{selected_node['name']}.json"
-                        #file_th = file_th.replace(" ", "-")
-                        #print(f"File TH: {file_th}")
                         with open(file_th, 'r', encoding='utf-8') as f:
                             d = json.load(f)
-                        #print(f"Data: {d}")
                         st.markdown(f"**Resumen:** {d['info']}", unsafe_allow_html=True)
                         st.page_link(d['url'], label="Trend Hunter", icon="🌎")
-                        #st.markdown("[![Foo](https://cdn.trendhunterstatic.com/phpthumbnails/485/485683/485683_1_468d.jpeg)](https://www.trendhunter.com/report?ak=cr_3764e3c6095a42fb08e3a9c6d0ca1#idea=485683)")
                     except: 
                         st.write(f"Sin información disponible en el eje {selected_option}")
                 else:
                     st.write(f"Sin información disponible en el eje {selected_option}")
         elif selected_node and selected_node['symbolSize']==30:
             with info_container:
-                st.write(f"Info acerca de nodos padres")
+                st.write(f"Selecciona algun subnodo para mostrar su información")
         elif selected_node and selected_node['symbolSize']==50:
             with info_container:
-                st.write(f"Info acerca de nodo principal (Sector)")
+                st.write(f"Selecciona algun subnodo para mostrar su información")
         
 
 
