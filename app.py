@@ -1,10 +1,9 @@
 import streamlit as st
-from streamlit_extras.app_logo import add_logo
-from custom_echarts.graph import load_data, render_graph, render_generic_graph, generate_generic_graph_data
+from custom_echarts.graph import load_data, render_graph
 import pandas as pd
 import ast
 import json
-
+from io import BytesIO
 
 # Path to data & images
 DATA_ES = {"Agroindustrial": ["graphs_es/Agroindustria.json", "AGROINDUSTRIA"],
@@ -20,10 +19,13 @@ IMGS = {"logoIDEA": "images/200-Anos-ideaGTO.png",
 
 
 @st.cache_data
-def read_links(filename):
-    df = pd.read_csv(filename, sep=',')
-    # IMPORTANT: Cache the conversion to prevent computation on every rerun
-    return df.to_csv().encode("utf-8")
+def to_excel(filename):
+    df = pd.read_excel(filename, index_col=0)
+    output = BytesIO()
+    with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+        df.to_excel(writer, index=False)
+    processed_data = output.getvalue()
+    return processed_data
 
 
 # main interface: sliderbar, graph & info container
@@ -127,9 +129,11 @@ def main():
                         )
 
                         try:
-                            content_filename = f"{sel_op}_link_{selected_node['name']}.csv"
-                            contents = read_links(f"data_es/{data_folder}/{sel_op}/{content_filename}")
-                            st.download_button(f"{'Descargar Patentes' if selected_option == 'Tecnológico' else 'Descarcar Artículos Top'}", contents, content_filename)
+                            content_filename = f"{sel_op}_link_{selected_node['name']}.xlsx"
+                            contents = to_excel(f"data_es/{data_folder}/{sel_op}/{content_filename}")
+                            st.download_button(f" 📥 {'Descargar Patentes' if selected_option == 'Tecnológico' else 'Descarcar Artículos Top'}", 
+                                               contents, content_filename,
+                                               mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
                         except:
                             st.write(f"Sin más detalles por descargar")
 
