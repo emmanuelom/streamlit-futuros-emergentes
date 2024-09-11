@@ -133,7 +133,8 @@ def main():
                             contents = to_excel(f"data_es/{data_folder}/{sel_op}/{content_filename}")
                             st.download_button(f" 📥 {'Descargar Patentes' if selected_option == 'Tecnológico' else 'Descarcar Artículos Top'}", 
                                                contents, content_filename,
-                                               mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+                                               mime="application/vnd.ms-excel")
+                                               #mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
                         except:
                             st.write(f"Sin más detalles por descargar")
 
